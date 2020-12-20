@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/cmsis/arm-gcc/startup_stm32l072xx.s
+
