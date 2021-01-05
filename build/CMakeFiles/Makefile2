@@ -432,10 +432,10 @@ clean: src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.hex.dir/clean
 
 # All Build rule for target.
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/all: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/all
-src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/all: src/radio/CMakeFiles/radio.dir/all
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/all: src/system/CMakeFiles/system.dir/all
-src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/all: src/mac/CMakeFiles/mac.dir/all
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/all: src/peripherals/CMakeFiles/peripherals.dir/all
+src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/all: src/mac/CMakeFiles/mac.dir/all
+src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/all: src/radio/CMakeFiles/radio.dir/all
 	$(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/depend
 	$(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=34,35,36,37,38,39,40,41,42,43,44,45 "Built target LoRaMac-periodic-uplink-lpp"

@@ -32,6 +32,11 @@
 *.app
 *.hex
 *.bin
+*.map
+*.dir
 
 # Build folder
 build/*
+*.includecache
+*.make
+*.internal

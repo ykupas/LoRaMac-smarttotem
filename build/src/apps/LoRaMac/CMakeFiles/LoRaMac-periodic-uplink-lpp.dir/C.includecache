@@ -172,3 +172,25 @@ CayenneLpp.h
 LmHandlerMsgDisplay.h
 /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/LmHandlerMsgDisplay.h
 
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c
+stdio.h
+-
+utilities.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/utilities.h
+board.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/board.h
+gpio.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/gpio.h
+app.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/app.h
+Commissioning.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/Commissioning.h
+LmHandler.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/LmHandler.h
+LmhpCompliance.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/LmhpCompliance.h
+CayenneLpp.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/CayenneLpp.h
+LmHandlerMsgDisplay.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/LmHandlerMsgDisplay.h
+
