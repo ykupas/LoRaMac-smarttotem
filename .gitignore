@@ -30,6 +30,8 @@
 *.exe
 *.out
 *.app
+*.hex
+*.bin
 
 # Build folder
 build/*
