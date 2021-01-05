@@ -7,6 +7,14 @@
 #include "app.h"
 
 
+// #define INT BTN_1
+#define INT_PIN PA_4
+// #define INT_EDGE IRQ_FALLING_EDGE
+#define INT_EDGE IRQ_RISING_EDGE
+// #define INT_STATE 0
+#define INT_STATE 1
+
+
 extern Gpio_t Led1;
 extern Gpio_t Led4;
 
@@ -16,16 +24,16 @@ void DebounceTimerEvent( void* context )
     // Stopping timer
     TimerStop( &debounceTimer );
 
-    // Re-setup GPIO taht it can be read
-    GpioInit( &PushButton, BTN_1, PIN_INPUT, PIN_OPEN_DRAIN, PIN_NO_PULL, 1 );
-    if( GpioRead(&PushButton) == 0 ) 
+    // Re-setup GPIO that it can be read
+    GpioInit( &PushButton, INT_PIN, PIN_INPUT, PIN_OPEN_DRAIN, PIN_NO_PULL, 1 );
+    if( GpioRead(&PushButton) == INT_STATE ) 
     {
-        // If button is still pressed, toggle LED
+        // If interruption is still going, toggle LED
         GpioToggle( &Led1);
     }
 
     // Set the interruption again
-    GpioSetInterrupt( &PushButton, IRQ_FALLING_EDGE, IRQ_MEDIUM_PRIORITY, DebounceIntEvent);
+    GpioSetInterrupt( &PushButton, INT_EDGE, IRQ_MEDIUM_PRIORITY, DebounceIntEvent);
 }
 
 
@@ -60,8 +68,8 @@ void app_setup(void)
     TimerSetValue( &debounceTimer, 1000 );
 
     // Push button init 
-    GpioInit( &PushButton, BTN_1, PIN_INPUT, PIN_OPEN_DRAIN, PIN_NO_PULL, 1 );
-    GpioSetInterrupt( &PushButton, IRQ_FALLING_EDGE, IRQ_MEDIUM_PRIORITY, DebounceIntEvent);
+    GpioInit( &PushButton, INT_PIN, PIN_INPUT, PIN_OPEN_DRAIN, PIN_NO_PULL, 1 );
+    GpioSetInterrupt( &PushButton, INT_EDGE, IRQ_MEDIUM_PRIORITY, DebounceIntEvent);
 }
 
 void app(void)
