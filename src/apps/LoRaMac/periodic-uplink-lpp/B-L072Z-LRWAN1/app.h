@@ -10,6 +10,7 @@
 #include <stdio.h>
 #include "utilities.h"
 #include "board.h"
+#include "board-config.h"
 #include "gpio.h"
 
 #include "Commissioning.h"
@@ -19,8 +20,22 @@
 #include "LmHandlerMsgDisplay.h"
 
 
+Gpio_t PushButton;
+
+static TimerEvent_t evtTimer;
+static TimerEvent_t debounceTimer;
+
+
+/* Debounce Timer function event */
+void DebounceTimerEvent( void* context );
+
+
+/* Debounce Interruption function event */
+void DebounceIntEvent( void* context );
+
+
 /* Timer Event Function */
-static void OnTimerEvent( void* context );
+void OnTimerEvent( void* context );
 
 
 /* Application setup funciton */

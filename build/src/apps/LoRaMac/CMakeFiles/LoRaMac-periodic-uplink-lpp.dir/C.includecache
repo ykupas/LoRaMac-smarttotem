@@ -46,6 +46,8 @@ utilities.h
 LmHandler.h
 ../src/apps/LoRaMac/common/LmHandler.h
 
+../src/boards/B-L072Z-LRWAN1/board-config.h
+
 ../src/boards/board.h
 stdint.h
 -
@@ -155,6 +157,8 @@ utilities.h
 /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/utilities.h
 board.h
 /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/board.h
+board-config.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/board-config.h
 gpio.h
 /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/gpio.h
 Commissioning.h

@@ -133,6 +133,7 @@ src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.obj: ../src/apps/LoRaMac/common/LmHandler/packages/LmhPackage.h
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.obj: ../src/apps/LoRaMac/common/LmHandler/packages/LmhpCompliance.h
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.obj: ../src/apps/LoRaMac/common/LmHandlerMsgDisplay.h
+src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.obj: ../src/boards/B-L072Z-LRWAN1/board-config.h
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.obj: ../src/boards/board.h
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.obj: ../src/boards/pinName-board.h
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.obj: ../src/boards/pinName-ioe.h
@@ -157,6 +158,7 @@ src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj: ../src/apps/LoRaMac/common/LmHandler/packages/LmhPackage.h
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj: ../src/apps/LoRaMac/common/LmHandler/packages/LmhpCompliance.h
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj: ../src/apps/LoRaMac/common/LmHandlerMsgDisplay.h
+src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj: ../src/boards/B-L072Z-LRWAN1/board-config.h
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj: ../src/boards/board.h
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj: ../src/boards/pinName-board.h
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj: ../src/boards/pinName-ioe.h
