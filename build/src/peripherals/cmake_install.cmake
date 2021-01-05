@@ -1,4 +1,4 @@
-# Install script for directory: /home/kupas/TCC/LoRaMac-smarttotem/src/peripherals
+# Install script for directory: /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

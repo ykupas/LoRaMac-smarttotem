@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/kupas/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276.c" "/home/kupas/TCC/LoRaMac-smarttotem/build/src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj"
+  "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276.c" "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

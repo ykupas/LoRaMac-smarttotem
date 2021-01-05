@@ -4,17 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/kupas/TCC/LoRaMac-smarttotem/src/system/adc.c" "/home/kupas/TCC/LoRaMac-smarttotem/build/src/system/CMakeFiles/system.dir/adc.c.obj"
-  "/home/kupas/TCC/LoRaMac-smarttotem/src/system/delay.c" "/home/kupas/TCC/LoRaMac-smarttotem/build/src/system/CMakeFiles/system.dir/delay.c.obj"
-  "/home/kupas/TCC/LoRaMac-smarttotem/src/system/eeprom.c" "/home/kupas/TCC/LoRaMac-smarttotem/build/src/system/CMakeFiles/system.dir/eeprom.c.obj"
-  "/home/kupas/TCC/LoRaMac-smarttotem/src/system/fifo.c" "/home/kupas/TCC/LoRaMac-smarttotem/build/src/system/CMakeFiles/system.dir/fifo.c.obj"
-  "/home/kupas/TCC/LoRaMac-smarttotem/src/system/gpio.c" "/home/kupas/TCC/LoRaMac-smarttotem/build/src/system/CMakeFiles/system.dir/gpio.c.obj"
-  "/home/kupas/TCC/LoRaMac-smarttotem/src/system/gps.c" "/home/kupas/TCC/LoRaMac-smarttotem/build/src/system/CMakeFiles/system.dir/gps.c.obj"
-  "/home/kupas/TCC/LoRaMac-smarttotem/src/system/i2c.c" "/home/kupas/TCC/LoRaMac-smarttotem/build/src/system/CMakeFiles/system.dir/i2c.c.obj"
-  "/home/kupas/TCC/LoRaMac-smarttotem/src/system/nvmm.c" "/home/kupas/TCC/LoRaMac-smarttotem/build/src/system/CMakeFiles/system.dir/nvmm.c.obj"
-  "/home/kupas/TCC/LoRaMac-smarttotem/src/system/systime.c" "/home/kupas/TCC/LoRaMac-smarttotem/build/src/system/CMakeFiles/system.dir/systime.c.obj"
-  "/home/kupas/TCC/LoRaMac-smarttotem/src/system/timer.c" "/home/kupas/TCC/LoRaMac-smarttotem/build/src/system/CMakeFiles/system.dir/timer.c.obj"
-  "/home/kupas/TCC/LoRaMac-smarttotem/src/system/uart.c" "/home/kupas/TCC/LoRaMac-smarttotem/build/src/system/CMakeFiles/system.dir/uart.c.obj"
+  "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/adc.c" "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/system/CMakeFiles/system.dir/adc.c.obj"
+  "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/delay.c" "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/system/CMakeFiles/system.dir/delay.c.obj"
+  "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/eeprom.c" "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/system/CMakeFiles/system.dir/eeprom.c.obj"
+  "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/fifo.c" "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/system/CMakeFiles/system.dir/fifo.c.obj"
+  "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/gpio.c" "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/system/CMakeFiles/system.dir/gpio.c.obj"
+  "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/gps.c" "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/system/CMakeFiles/system.dir/gps.c.obj"
+  "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/i2c.c" "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/system/CMakeFiles/system.dir/i2c.c.obj"
+  "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/nvmm.c" "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/system/CMakeFiles/system.dir/nvmm.c.obj"
+  "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/systime.c" "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/system/CMakeFiles/system.dir/systime.c.obj"
+  "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/timer.c" "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/system/CMakeFiles/system.dir/timer.c.obj"
+  "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/uart.c" "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/system/CMakeFiles/system.dir/uart.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

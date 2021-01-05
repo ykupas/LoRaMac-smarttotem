@@ -25,6 +25,7 @@
 #include "utilities.h"
 #include "board.h"
 #include "gpio.h"
+#include "app.h"
 
 #include "Commissioning.h"
 #include "LmHandler.h"
@@ -252,6 +253,8 @@ int main( void )
 {
     BoardInitMcu( );
     BoardInitPeriph( );
+
+    app();
 
     TimerInit( &Led1Timer, OnLed1TimerEvent );
     TimerSetValue( &Led1Timer, 25 );

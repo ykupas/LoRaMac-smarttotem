@@ -1,5 +1,5 @@
 The target system is: Generic -  - ARM
-The host system is: Linux - 4.19.0-12-amd64 - x86_64
+The host system is: Linux - 4.19.0-13-amd64 - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/arm-none-eabi-gcc 
 Build flags: 
@@ -11,7 +11,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
 
-The C compiler identification is GNU, found in "/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.o"
+The C compiler identification is GNU, found in "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.o"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/arm-none-eabi-g++ 
@@ -24,55 +24,55 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
 
-The CXX compiler identification is GNU, found in "/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.o"
+The CXX compiler identification is GNU, found in "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.o"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ce6dd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ce6dd.dir/build.make CMakeFiles/cmTC_ce6dd.dir/build
-make[1]: Entering directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ce6dd.dir/testCCompiler.c.obj
-/usr/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTC_ce6dd.dir/testCCompiler.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C static library libcmTC_ce6dd.a
-/usr/bin/cmake -P CMakeFiles/cmTC_ce6dd.dir/cmake_clean_target.cmake
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce6dd.dir/link.txt --verbose=1
-/usr/bin/arm-none-eabi-ar qc libcmTC_ce6dd.a  CMakeFiles/cmTC_ce6dd.dir/testCCompiler.c.obj
-/usr/bin/arm-none-eabi-ranlib libcmTC_ce6dd.a
-make[1]: Leaving directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_2c4a7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2c4a7.dir/build.make CMakeFiles/cmTC_2c4a7.dir/build
+make[1]: Entering directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c4a7.dir/testCCompiler.c.obj
+/usr/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTC_2c4a7.dir/testCCompiler.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C static library libcmTC_2c4a7.a
+/usr/bin/cmake -P CMakeFiles/cmTC_2c4a7.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c4a7.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc libcmTC_2c4a7.a  CMakeFiles/cmTC_2c4a7.dir/testCCompiler.c.obj
+/usr/bin/arm-none-eabi-ranlib libcmTC_2c4a7.a
+make[1]: Leaving directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fc656/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fc656.dir/build.make CMakeFiles/cmTC_fc656.dir/build
-make[1]: Entering directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fc656.dir/CMakeCCompilerABI.c.obj
-/usr/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTC_fc656.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c
-Linking C static library libcmTC_fc656.a
-/usr/bin/cmake -P CMakeFiles/cmTC_fc656.dir/cmake_clean_target.cmake
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc656.dir/link.txt --verbose=1
-/usr/bin/arm-none-eabi-ar qc libcmTC_fc656.a  CMakeFiles/cmTC_fc656.dir/CMakeCCompilerABI.c.obj
-/usr/bin/arm-none-eabi-ranlib libcmTC_fc656.a
-make[1]: Leaving directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_67a13/fast"
+/usr/bin/make -f CMakeFiles/cmTC_67a13.dir/build.make CMakeFiles/cmTC_67a13.dir/build
+make[1]: Entering directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67a13.dir/CMakeCCompilerABI.c.obj
+/usr/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTC_67a13.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C static library libcmTC_67a13.a
+/usr/bin/cmake -P CMakeFiles/cmTC_67a13.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67a13.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc libcmTC_67a13.a  CMakeFiles/cmTC_67a13.dir/CMakeCCompilerABI.c.obj
+/usr/bin/arm-none-eabi-ranlib libcmTC_67a13.a
+make[1]: Leaving directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_fc656/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_fc656.dir/build.make CMakeFiles/cmTC_fc656.dir/build]
-  ignore line: [make[1]: Entering directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_fc656.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/usr/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTC_fc656.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C static library libcmTC_fc656.a]
-  ignore line: [/usr/bin/cmake -P CMakeFiles/cmTC_fc656.dir/cmake_clean_target.cmake]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc656.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/arm-none-eabi-ar qc libcmTC_fc656.a  CMakeFiles/cmTC_fc656.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/usr/bin/arm-none-eabi-ranlib libcmTC_fc656.a]
-  ignore line: [make[1]: Leaving directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp']
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_67a13/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_67a13.dir/build.make CMakeFiles/cmTC_67a13.dir/build]
+  ignore line: [make[1]: Entering directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_67a13.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTC_67a13.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C static library libcmTC_67a13.a]
+  ignore line: [/usr/bin/cmake -P CMakeFiles/cmTC_67a13.dir/cmake_clean_target.cmake]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67a13.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/arm-none-eabi-ar qc libcmTC_67a13.a  CMakeFiles/cmTC_67a13.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/bin/arm-none-eabi-ranlib libcmTC_67a13.a]
+  ignore line: [make[1]: Leaving directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp']
   ignore line: []
   implicit libs: []
   implicit dirs: []
@@ -82,19 +82,19 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_34712/fast"
-/usr/bin/make -f CMakeFiles/cmTC_34712.dir/build.make CMakeFiles/cmTC_34712.dir/build
-make[1]: Entering directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_34712.dir/feature_tests.c.obj
-/usr/bin/arm-none-eabi-gcc   -std=c11 -o CMakeFiles/cmTC_34712.dir/feature_tests.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/feature_tests.c
-Linking C static library libcmTC_34712.a
-/usr/bin/cmake -P CMakeFiles/cmTC_34712.dir/cmake_clean_target.cmake
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34712.dir/link.txt --verbose=1
-/usr/bin/arm-none-eabi-ar qc libcmTC_34712.a  CMakeFiles/cmTC_34712.dir/feature_tests.c.obj
-/usr/bin/arm-none-eabi-ranlib libcmTC_34712.a
-make[1]: Leaving directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4f210/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f210.dir/build.make CMakeFiles/cmTC_4f210.dir/build
+make[1]: Entering directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f210.dir/feature_tests.c.obj
+/usr/bin/arm-none-eabi-gcc   -std=c11 -o CMakeFiles/cmTC_4f210.dir/feature_tests.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/feature_tests.c
+Linking C static library libcmTC_4f210.a
+/usr/bin/cmake -P CMakeFiles/cmTC_4f210.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f210.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc libcmTC_4f210.a  CMakeFiles/cmTC_4f210.dir/feature_tests.c.obj
+/usr/bin/arm-none-eabi-ranlib libcmTC_4f210.a
+make[1]: Leaving directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -104,19 +104,19 @@ make[1]: Leaving directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5b6a5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5b6a5.dir/build.make CMakeFiles/cmTC_5b6a5.dir/build
-make[1]: Entering directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5b6a5.dir/feature_tests.c.obj
-/usr/bin/arm-none-eabi-gcc   -std=c99 -o CMakeFiles/cmTC_5b6a5.dir/feature_tests.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/feature_tests.c
-Linking C static library libcmTC_5b6a5.a
-/usr/bin/cmake -P CMakeFiles/cmTC_5b6a5.dir/cmake_clean_target.cmake
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b6a5.dir/link.txt --verbose=1
-/usr/bin/arm-none-eabi-ar qc libcmTC_5b6a5.a  CMakeFiles/cmTC_5b6a5.dir/feature_tests.c.obj
-/usr/bin/arm-none-eabi-ranlib libcmTC_5b6a5.a
-make[1]: Leaving directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d2731/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d2731.dir/build.make CMakeFiles/cmTC_d2731.dir/build
+make[1]: Entering directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2731.dir/feature_tests.c.obj
+/usr/bin/arm-none-eabi-gcc   -std=c99 -o CMakeFiles/cmTC_d2731.dir/feature_tests.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/feature_tests.c
+Linking C static library libcmTC_d2731.a
+/usr/bin/cmake -P CMakeFiles/cmTC_d2731.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2731.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc libcmTC_d2731.a  CMakeFiles/cmTC_d2731.dir/feature_tests.c.obj
+/usr/bin/arm-none-eabi-ranlib libcmTC_d2731.a
+make[1]: Leaving directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -126,19 +126,19 @@ make[1]: Leaving directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0c932/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0c932.dir/build.make CMakeFiles/cmTC_0c932.dir/build
-make[1]: Entering directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0c932.dir/feature_tests.c.obj
-/usr/bin/arm-none-eabi-gcc   -std=c90 -o CMakeFiles/cmTC_0c932.dir/feature_tests.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/feature_tests.c
-Linking C static library libcmTC_0c932.a
-/usr/bin/cmake -P CMakeFiles/cmTC_0c932.dir/cmake_clean_target.cmake
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c932.dir/link.txt --verbose=1
-/usr/bin/arm-none-eabi-ar qc libcmTC_0c932.a  CMakeFiles/cmTC_0c932.dir/feature_tests.c.obj
-/usr/bin/arm-none-eabi-ranlib libcmTC_0c932.a
-make[1]: Leaving directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_47fc0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_47fc0.dir/build.make CMakeFiles/cmTC_47fc0.dir/build
+make[1]: Entering directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47fc0.dir/feature_tests.c.obj
+/usr/bin/arm-none-eabi-gcc   -std=c90 -o CMakeFiles/cmTC_47fc0.dir/feature_tests.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/feature_tests.c
+Linking C static library libcmTC_47fc0.a
+/usr/bin/cmake -P CMakeFiles/cmTC_47fc0.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47fc0.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc libcmTC_47fc0.a  CMakeFiles/cmTC_47fc0.dir/feature_tests.c.obj
+/usr/bin/arm-none-eabi-ranlib libcmTC_47fc0.a
+make[1]: Leaving directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -146,52 +146,52 @@ make[1]: Leaving directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ca677/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ca677.dir/build.make CMakeFiles/cmTC_ca677.dir/build
-make[1]: Entering directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ca677.dir/testCXXCompiler.cxx.obj
-/usr/bin/arm-none-eabi-g++     -o CMakeFiles/cmTC_ca677.dir/testCXXCompiler.cxx.obj -c /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX static library libcmTC_ca677.a
-/usr/bin/cmake -P CMakeFiles/cmTC_ca677.dir/cmake_clean_target.cmake
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca677.dir/link.txt --verbose=1
-/usr/bin/arm-none-eabi-ar qc libcmTC_ca677.a  CMakeFiles/cmTC_ca677.dir/testCXXCompiler.cxx.obj
-/usr/bin/arm-none-eabi-ranlib libcmTC_ca677.a
-make[1]: Leaving directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5dad6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5dad6.dir/build.make CMakeFiles/cmTC_5dad6.dir/build
+make[1]: Entering directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5dad6.dir/testCXXCompiler.cxx.obj
+/usr/bin/arm-none-eabi-g++     -o CMakeFiles/cmTC_5dad6.dir/testCXXCompiler.cxx.obj -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX static library libcmTC_5dad6.a
+/usr/bin/cmake -P CMakeFiles/cmTC_5dad6.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dad6.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc libcmTC_5dad6.a  CMakeFiles/cmTC_5dad6.dir/testCXXCompiler.cxx.obj
+/usr/bin/arm-none-eabi-ranlib libcmTC_5dad6.a
+make[1]: Leaving directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7ce5d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7ce5d.dir/build.make CMakeFiles/cmTC_7ce5d.dir/build
-make[1]: Entering directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7ce5d.dir/CMakeCXXCompilerABI.cpp.obj
-/usr/bin/arm-none-eabi-g++     -o CMakeFiles/cmTC_7ce5d.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX static library libcmTC_7ce5d.a
-/usr/bin/cmake -P CMakeFiles/cmTC_7ce5d.dir/cmake_clean_target.cmake
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ce5d.dir/link.txt --verbose=1
-/usr/bin/arm-none-eabi-ar qc libcmTC_7ce5d.a  CMakeFiles/cmTC_7ce5d.dir/CMakeCXXCompilerABI.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libcmTC_7ce5d.a
-make[1]: Leaving directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_17513/fast"
+/usr/bin/make -f CMakeFiles/cmTC_17513.dir/build.make CMakeFiles/cmTC_17513.dir/build
+make[1]: Entering directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_17513.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/bin/arm-none-eabi-g++     -o CMakeFiles/cmTC_17513.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX static library libcmTC_17513.a
+/usr/bin/cmake -P CMakeFiles/cmTC_17513.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17513.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc libcmTC_17513.a  CMakeFiles/cmTC_17513.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libcmTC_17513.a
+make[1]: Leaving directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7ce5d/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_7ce5d.dir/build.make CMakeFiles/cmTC_7ce5d.dir/build]
-  ignore line: [make[1]: Entering directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_7ce5d.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [/usr/bin/arm-none-eabi-g++     -o CMakeFiles/cmTC_7ce5d.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX static library libcmTC_7ce5d.a]
-  ignore line: [/usr/bin/cmake -P CMakeFiles/cmTC_7ce5d.dir/cmake_clean_target.cmake]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ce5d.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/arm-none-eabi-ar qc libcmTC_7ce5d.a  CMakeFiles/cmTC_7ce5d.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [/usr/bin/arm-none-eabi-ranlib libcmTC_7ce5d.a]
-  ignore line: [make[1]: Leaving directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp']
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_17513/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_17513.dir/build.make CMakeFiles/cmTC_17513.dir/build]
+  ignore line: [make[1]: Entering directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_17513.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/usr/bin/arm-none-eabi-g++     -o CMakeFiles/cmTC_17513.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX static library libcmTC_17513.a]
+  ignore line: [/usr/bin/cmake -P CMakeFiles/cmTC_17513.dir/cmake_clean_target.cmake]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17513.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/arm-none-eabi-ar qc libcmTC_17513.a  CMakeFiles/cmTC_17513.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/usr/bin/arm-none-eabi-ranlib libcmTC_17513.a]
+  ignore line: [make[1]: Leaving directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp']
   ignore line: []
   implicit libs: []
   implicit dirs: []
@@ -201,19 +201,19 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b539d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b539d.dir/build.make CMakeFiles/cmTC_b539d.dir/build
-make[1]: Entering directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b539d.dir/feature_tests.cxx.obj
-/usr/bin/arm-none-eabi-g++    -std=c++1z -o CMakeFiles/cmTC_b539d.dir/feature_tests.cxx.obj -c /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/feature_tests.cxx
-Linking CXX static library libcmTC_b539d.a
-/usr/bin/cmake -P CMakeFiles/cmTC_b539d.dir/cmake_clean_target.cmake
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b539d.dir/link.txt --verbose=1
-/usr/bin/arm-none-eabi-ar qc libcmTC_b539d.a  CMakeFiles/cmTC_b539d.dir/feature_tests.cxx.obj
-/usr/bin/arm-none-eabi-ranlib libcmTC_b539d.a
-make[1]: Leaving directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d6f52/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d6f52.dir/build.make CMakeFiles/cmTC_d6f52.dir/build
+make[1]: Entering directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d6f52.dir/feature_tests.cxx.obj
+/usr/bin/arm-none-eabi-g++    -std=c++1z -o CMakeFiles/cmTC_d6f52.dir/feature_tests.cxx.obj -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/feature_tests.cxx
+Linking CXX static library libcmTC_d6f52.a
+/usr/bin/cmake -P CMakeFiles/cmTC_d6f52.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6f52.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc libcmTC_d6f52.a  CMakeFiles/cmTC_d6f52.dir/feature_tests.cxx.obj
+/usr/bin/arm-none-eabi-ranlib libcmTC_d6f52.a
+make[1]: Leaving directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -276,19 +276,19 @@ make[1]: Leaving directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b8e5d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b8e5d.dir/build.make CMakeFiles/cmTC_b8e5d.dir/build
-make[1]: Entering directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b8e5d.dir/feature_tests.cxx.obj
-/usr/bin/arm-none-eabi-g++    -std=c++14 -o CMakeFiles/cmTC_b8e5d.dir/feature_tests.cxx.obj -c /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/feature_tests.cxx
-Linking CXX static library libcmTC_b8e5d.a
-/usr/bin/cmake -P CMakeFiles/cmTC_b8e5d.dir/cmake_clean_target.cmake
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8e5d.dir/link.txt --verbose=1
-/usr/bin/arm-none-eabi-ar qc libcmTC_b8e5d.a  CMakeFiles/cmTC_b8e5d.dir/feature_tests.cxx.obj
-/usr/bin/arm-none-eabi-ranlib libcmTC_b8e5d.a
-make[1]: Leaving directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a2aef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a2aef.dir/build.make CMakeFiles/cmTC_a2aef.dir/build
+make[1]: Entering directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a2aef.dir/feature_tests.cxx.obj
+/usr/bin/arm-none-eabi-g++    -std=c++14 -o CMakeFiles/cmTC_a2aef.dir/feature_tests.cxx.obj -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/feature_tests.cxx
+Linking CXX static library libcmTC_a2aef.a
+/usr/bin/cmake -P CMakeFiles/cmTC_a2aef.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2aef.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc libcmTC_a2aef.a  CMakeFiles/cmTC_a2aef.dir/feature_tests.cxx.obj
+/usr/bin/arm-none-eabi-ranlib libcmTC_a2aef.a
+make[1]: Leaving directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -351,19 +351,19 @@ make[1]: Leaving directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b9cea/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b9cea.dir/build.make CMakeFiles/cmTC_b9cea.dir/build
-make[1]: Entering directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b9cea.dir/feature_tests.cxx.obj
-/usr/bin/arm-none-eabi-g++    -std=c++11 -o CMakeFiles/cmTC_b9cea.dir/feature_tests.cxx.obj -c /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/feature_tests.cxx
-Linking CXX static library libcmTC_b9cea.a
-/usr/bin/cmake -P CMakeFiles/cmTC_b9cea.dir/cmake_clean_target.cmake
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9cea.dir/link.txt --verbose=1
-/usr/bin/arm-none-eabi-ar qc libcmTC_b9cea.a  CMakeFiles/cmTC_b9cea.dir/feature_tests.cxx.obj
-/usr/bin/arm-none-eabi-ranlib libcmTC_b9cea.a
-make[1]: Leaving directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4d30c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4d30c.dir/build.make CMakeFiles/cmTC_4d30c.dir/build
+make[1]: Entering directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4d30c.dir/feature_tests.cxx.obj
+/usr/bin/arm-none-eabi-g++    -std=c++11 -o CMakeFiles/cmTC_4d30c.dir/feature_tests.cxx.obj -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/feature_tests.cxx
+Linking CXX static library libcmTC_4d30c.a
+/usr/bin/cmake -P CMakeFiles/cmTC_4d30c.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d30c.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc libcmTC_4d30c.a  CMakeFiles/cmTC_4d30c.dir/feature_tests.cxx.obj
+/usr/bin/arm-none-eabi-ranlib libcmTC_4d30c.a
+make[1]: Leaving directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -426,19 +426,19 @@ make[1]: Leaving directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_684e4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_684e4.dir/build.make CMakeFiles/cmTC_684e4.dir/build
-make[1]: Entering directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_684e4.dir/feature_tests.cxx.obj
-/usr/bin/arm-none-eabi-g++    -std=c++98 -o CMakeFiles/cmTC_684e4.dir/feature_tests.cxx.obj -c /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/feature_tests.cxx
-Linking CXX static library libcmTC_684e4.a
-/usr/bin/cmake -P CMakeFiles/cmTC_684e4.dir/cmake_clean_target.cmake
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_684e4.dir/link.txt --verbose=1
-/usr/bin/arm-none-eabi-ar qc libcmTC_684e4.a  CMakeFiles/cmTC_684e4.dir/feature_tests.cxx.obj
-/usr/bin/arm-none-eabi-ranlib libcmTC_684e4.a
-make[1]: Leaving directory '/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_0d579/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0d579.dir/build.make CMakeFiles/cmTC_0d579.dir/build
+make[1]: Entering directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0d579.dir/feature_tests.cxx.obj
+/usr/bin/arm-none-eabi-g++    -std=c++98 -o CMakeFiles/cmTC_0d579.dir/feature_tests.cxx.obj -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/feature_tests.cxx
+Linking CXX static library libcmTC_0d579.a
+/usr/bin/cmake -P CMakeFiles/cmTC_0d579.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d579.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc libcmTC_0d579.a  CMakeFiles/cmTC_0d579.dir/feature_tests.cxx.obj
+/usr/bin/arm-none-eabi-ranlib libcmTC_0d579.a
+make[1]: Leaving directory '/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

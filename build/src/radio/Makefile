@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kupas/TCC/LoRaMac-smarttotem
+CMAKE_SOURCE_DIR = /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kupas/TCC/LoRaMac-smarttotem/build
+CMAKE_BINARY_DIR = /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles /home/kupas/TCC/LoRaMac-smarttotem/build/src/radio/CMakeFiles/progress.marks
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/radio/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles 0
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/radio/CMakeFiles/progress.marks
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/radio/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/radio/clean
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/radio/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/radio/preinstall
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/radio/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/radio/preinstall
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/radio/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/radio/CMakeFiles/radio.dir/rule:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/radio/CMakeFiles/radio.dir/rule
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/radio/CMakeFiles/radio.dir/rule
 .PHONY : src/radio/CMakeFiles/radio.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ radio: src/radio/CMakeFiles/radio.dir/rule
 
 # fast build rule for target.
 radio/fast:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/radio/CMakeFiles/radio.dir/build.make src/radio/CMakeFiles/radio.dir/build
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/radio/CMakeFiles/radio.dir/build.make src/radio/CMakeFiles/radio.dir/build
 .PHONY : radio/fast
 
 sx1276/sx1276.obj: sx1276/sx1276.c.obj
@@ -131,7 +131,7 @@ sx1276/sx1276.obj: sx1276/sx1276.c.obj
 
 # target to build an object file
 sx1276/sx1276.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/radio/CMakeFiles/radio.dir/build.make src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/radio/CMakeFiles/radio.dir/build.make src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
 .PHONY : sx1276/sx1276.c.obj
 
 sx1276/sx1276.i: sx1276/sx1276.c.i
@@ -140,7 +140,7 @@ sx1276/sx1276.i: sx1276/sx1276.c.i
 
 # target to preprocess a source file
 sx1276/sx1276.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/radio/CMakeFiles/radio.dir/build.make src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/radio/CMakeFiles/radio.dir/build.make src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.i
 .PHONY : sx1276/sx1276.c.i
 
 sx1276/sx1276.s: sx1276/sx1276.c.s
@@ -149,7 +149,7 @@ sx1276/sx1276.s: sx1276/sx1276.c.s
 
 # target to generate assembly for a file
 sx1276/sx1276.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/radio/CMakeFiles/radio.dir/build.make src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/radio/CMakeFiles/radio.dir/build.make src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.s
 .PHONY : sx1276/sx1276.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

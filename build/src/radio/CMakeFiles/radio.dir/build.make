@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kupas/TCC/LoRaMac-smarttotem
+CMAKE_SOURCE_DIR = /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kupas/TCC/LoRaMac-smarttotem/build
+CMAKE_BINARY_DIR = /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build
 
 # Include any dependencies generated for this target.
 include src/radio/CMakeFiles/radio.dir/depend.make
@@ -59,16 +59,16 @@ include src/radio/CMakeFiles/radio.dir/flags.make
 
 src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj: src/radio/CMakeFiles/radio.dir/flags.make
 src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj: ../src/radio/sx1276/sx1276.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/radio && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/radio.dir/sx1276/sx1276.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/radio && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/radio.dir/sx1276/sx1276.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276.c
 
 src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/radio.dir/sx1276/sx1276.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/radio && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276.c > CMakeFiles/radio.dir/sx1276/sx1276.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/radio && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276.c > CMakeFiles/radio.dir/sx1276/sx1276.c.i
 
 src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/radio.dir/sx1276/sx1276.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/radio && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276.c -o CMakeFiles/radio.dir/sx1276/sx1276.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/radio && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276.c -o CMakeFiles/radio.dir/sx1276/sx1276.c.s
 
 radio: src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
 radio: src/radio/CMakeFiles/radio.dir/build.make
@@ -81,10 +81,10 @@ src/radio/CMakeFiles/radio.dir/build: radio
 .PHONY : src/radio/CMakeFiles/radio.dir/build
 
 src/radio/CMakeFiles/radio.dir/clean:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/radio && $(CMAKE_COMMAND) -P CMakeFiles/radio.dir/cmake_clean.cmake
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/radio && $(CMAKE_COMMAND) -P CMakeFiles/radio.dir/cmake_clean.cmake
 .PHONY : src/radio/CMakeFiles/radio.dir/clean
 
 src/radio/CMakeFiles/radio.dir/depend:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kupas/TCC/LoRaMac-smarttotem /home/kupas/TCC/LoRaMac-smarttotem/src/radio /home/kupas/TCC/LoRaMac-smarttotem/build /home/kupas/TCC/LoRaMac-smarttotem/build/src/radio /home/kupas/TCC/LoRaMac-smarttotem/build/src/radio/CMakeFiles/radio.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/radio /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/radio /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/radio/CMakeFiles/radio.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/radio/CMakeFiles/radio.dir/depend
 

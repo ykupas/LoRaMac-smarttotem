@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kupas/TCC/LoRaMac-smarttotem
+CMAKE_SOURCE_DIR = /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kupas/TCC/LoRaMac-smarttotem/build
+CMAKE_BINARY_DIR = /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles /home/kupas/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac/CMakeFiles/progress.marks
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/apps/LoRaMac/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles 0
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac/CMakeFiles/progress.marks
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/apps/LoRaMac/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/apps/LoRaMac/clean
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/apps/LoRaMac/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/apps/LoRaMac/preinstall
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/apps/LoRaMac/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/apps/LoRaMac/preinstall
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/apps/LoRaMac/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.hex.dir/rule:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.hex.dir/rule
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.hex.dir/rule
 .PHONY : src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.hex.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ LoRaMac-periodic-uplink-lpp.hex: src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-up
 
 # fast build rule for target.
 LoRaMac-periodic-uplink-lpp.hex/fast:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.hex.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.hex.dir/build
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.hex.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.hex.dir/build
 .PHONY : LoRaMac-periodic-uplink-lpp.hex/fast
 
 # Convenience name for target.
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/rule:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/rule
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/rule
 .PHONY : src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ LoRaMac-periodic-uplink-lpp: src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink
 
 # fast build rule for target.
 LoRaMac-periodic-uplink-lpp/fast:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build
 .PHONY : LoRaMac-periodic-uplink-lpp/fast
 
 # Convenience name for target.
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/rule:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/rule
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/rule
 .PHONY : src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/rule
 
 # Convenience name for target.
@@ -152,7 +152,7 @@ LoRaMac-periodic-uplink-lpp.bin: src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-up
 
 # fast build rule for target.
 LoRaMac-periodic-uplink-lpp.bin/fast:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/build
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/build
 .PHONY : LoRaMac-periodic-uplink-lpp.bin/fast
 
 common/CayenneLpp.obj: common/CayenneLpp.c.obj
@@ -161,7 +161,7 @@ common/CayenneLpp.obj: common/CayenneLpp.c.obj
 
 # target to build an object file
 common/CayenneLpp.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/CayenneLpp.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/CayenneLpp.c.obj
 .PHONY : common/CayenneLpp.c.obj
 
 common/CayenneLpp.i: common/CayenneLpp.c.i
@@ -170,7 +170,7 @@ common/CayenneLpp.i: common/CayenneLpp.c.i
 
 # target to preprocess a source file
 common/CayenneLpp.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/CayenneLpp.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/CayenneLpp.c.i
 .PHONY : common/CayenneLpp.c.i
 
 common/CayenneLpp.s: common/CayenneLpp.c.s
@@ -179,7 +179,7 @@ common/CayenneLpp.s: common/CayenneLpp.c.s
 
 # target to generate assembly for a file
 common/CayenneLpp.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/CayenneLpp.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/CayenneLpp.c.s
 .PHONY : common/CayenneLpp.c.s
 
 common/LmHandler/LmHandler.obj: common/LmHandler/LmHandler.c.obj
@@ -188,7 +188,7 @@ common/LmHandler/LmHandler.obj: common/LmHandler/LmHandler.c.obj
 
 # target to build an object file
 common/LmHandler/LmHandler.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/LmHandler.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/LmHandler.c.obj
 .PHONY : common/LmHandler/LmHandler.c.obj
 
 common/LmHandler/LmHandler.i: common/LmHandler/LmHandler.c.i
@@ -197,7 +197,7 @@ common/LmHandler/LmHandler.i: common/LmHandler/LmHandler.c.i
 
 # target to preprocess a source file
 common/LmHandler/LmHandler.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/LmHandler.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/LmHandler.c.i
 .PHONY : common/LmHandler/LmHandler.c.i
 
 common/LmHandler/LmHandler.s: common/LmHandler/LmHandler.c.s
@@ -206,7 +206,7 @@ common/LmHandler/LmHandler.s: common/LmHandler/LmHandler.c.s
 
 # target to generate assembly for a file
 common/LmHandler/LmHandler.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/LmHandler.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/LmHandler.c.s
 .PHONY : common/LmHandler/LmHandler.c.s
 
 common/LmHandler/packages/FragDecoder.obj: common/LmHandler/packages/FragDecoder.c.obj
@@ -215,7 +215,7 @@ common/LmHandler/packages/FragDecoder.obj: common/LmHandler/packages/FragDecoder
 
 # target to build an object file
 common/LmHandler/packages/FragDecoder.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/FragDecoder.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/FragDecoder.c.obj
 .PHONY : common/LmHandler/packages/FragDecoder.c.obj
 
 common/LmHandler/packages/FragDecoder.i: common/LmHandler/packages/FragDecoder.c.i
@@ -224,7 +224,7 @@ common/LmHandler/packages/FragDecoder.i: common/LmHandler/packages/FragDecoder.c
 
 # target to preprocess a source file
 common/LmHandler/packages/FragDecoder.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/FragDecoder.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/FragDecoder.c.i
 .PHONY : common/LmHandler/packages/FragDecoder.c.i
 
 common/LmHandler/packages/FragDecoder.s: common/LmHandler/packages/FragDecoder.c.s
@@ -233,7 +233,7 @@ common/LmHandler/packages/FragDecoder.s: common/LmHandler/packages/FragDecoder.c
 
 # target to generate assembly for a file
 common/LmHandler/packages/FragDecoder.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/FragDecoder.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/FragDecoder.c.s
 .PHONY : common/LmHandler/packages/FragDecoder.c.s
 
 common/LmHandler/packages/LmhpClockSync.obj: common/LmHandler/packages/LmhpClockSync.c.obj
@@ -242,7 +242,7 @@ common/LmHandler/packages/LmhpClockSync.obj: common/LmHandler/packages/LmhpClock
 
 # target to build an object file
 common/LmHandler/packages/LmhpClockSync.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpClockSync.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpClockSync.c.obj
 .PHONY : common/LmHandler/packages/LmhpClockSync.c.obj
 
 common/LmHandler/packages/LmhpClockSync.i: common/LmHandler/packages/LmhpClockSync.c.i
@@ -251,7 +251,7 @@ common/LmHandler/packages/LmhpClockSync.i: common/LmHandler/packages/LmhpClockSy
 
 # target to preprocess a source file
 common/LmHandler/packages/LmhpClockSync.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpClockSync.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpClockSync.c.i
 .PHONY : common/LmHandler/packages/LmhpClockSync.c.i
 
 common/LmHandler/packages/LmhpClockSync.s: common/LmHandler/packages/LmhpClockSync.c.s
@@ -260,7 +260,7 @@ common/LmHandler/packages/LmhpClockSync.s: common/LmHandler/packages/LmhpClockSy
 
 # target to generate assembly for a file
 common/LmHandler/packages/LmhpClockSync.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpClockSync.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpClockSync.c.s
 .PHONY : common/LmHandler/packages/LmhpClockSync.c.s
 
 common/LmHandler/packages/LmhpCompliance.obj: common/LmHandler/packages/LmhpCompliance.c.obj
@@ -269,7 +269,7 @@ common/LmHandler/packages/LmhpCompliance.obj: common/LmHandler/packages/LmhpComp
 
 # target to build an object file
 common/LmHandler/packages/LmhpCompliance.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpCompliance.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpCompliance.c.obj
 .PHONY : common/LmHandler/packages/LmhpCompliance.c.obj
 
 common/LmHandler/packages/LmhpCompliance.i: common/LmHandler/packages/LmhpCompliance.c.i
@@ -278,7 +278,7 @@ common/LmHandler/packages/LmhpCompliance.i: common/LmHandler/packages/LmhpCompli
 
 # target to preprocess a source file
 common/LmHandler/packages/LmhpCompliance.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpCompliance.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpCompliance.c.i
 .PHONY : common/LmHandler/packages/LmhpCompliance.c.i
 
 common/LmHandler/packages/LmhpCompliance.s: common/LmHandler/packages/LmhpCompliance.c.s
@@ -287,7 +287,7 @@ common/LmHandler/packages/LmhpCompliance.s: common/LmHandler/packages/LmhpCompli
 
 # target to generate assembly for a file
 common/LmHandler/packages/LmhpCompliance.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpCompliance.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpCompliance.c.s
 .PHONY : common/LmHandler/packages/LmhpCompliance.c.s
 
 common/LmHandler/packages/LmhpFragmentation.obj: common/LmHandler/packages/LmhpFragmentation.c.obj
@@ -296,7 +296,7 @@ common/LmHandler/packages/LmhpFragmentation.obj: common/LmHandler/packages/LmhpF
 
 # target to build an object file
 common/LmHandler/packages/LmhpFragmentation.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpFragmentation.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpFragmentation.c.obj
 .PHONY : common/LmHandler/packages/LmhpFragmentation.c.obj
 
 common/LmHandler/packages/LmhpFragmentation.i: common/LmHandler/packages/LmhpFragmentation.c.i
@@ -305,7 +305,7 @@ common/LmHandler/packages/LmhpFragmentation.i: common/LmHandler/packages/LmhpFra
 
 # target to preprocess a source file
 common/LmHandler/packages/LmhpFragmentation.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpFragmentation.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpFragmentation.c.i
 .PHONY : common/LmHandler/packages/LmhpFragmentation.c.i
 
 common/LmHandler/packages/LmhpFragmentation.s: common/LmHandler/packages/LmhpFragmentation.c.s
@@ -314,7 +314,7 @@ common/LmHandler/packages/LmhpFragmentation.s: common/LmHandler/packages/LmhpFra
 
 # target to generate assembly for a file
 common/LmHandler/packages/LmhpFragmentation.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpFragmentation.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpFragmentation.c.s
 .PHONY : common/LmHandler/packages/LmhpFragmentation.c.s
 
 common/LmHandler/packages/LmhpRemoteMcastSetup.obj: common/LmHandler/packages/LmhpRemoteMcastSetup.c.obj
@@ -323,7 +323,7 @@ common/LmHandler/packages/LmhpRemoteMcastSetup.obj: common/LmHandler/packages/Lm
 
 # target to build an object file
 common/LmHandler/packages/LmhpRemoteMcastSetup.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpRemoteMcastSetup.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpRemoteMcastSetup.c.obj
 .PHONY : common/LmHandler/packages/LmhpRemoteMcastSetup.c.obj
 
 common/LmHandler/packages/LmhpRemoteMcastSetup.i: common/LmHandler/packages/LmhpRemoteMcastSetup.c.i
@@ -332,7 +332,7 @@ common/LmHandler/packages/LmhpRemoteMcastSetup.i: common/LmHandler/packages/Lmhp
 
 # target to preprocess a source file
 common/LmHandler/packages/LmhpRemoteMcastSetup.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpRemoteMcastSetup.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpRemoteMcastSetup.c.i
 .PHONY : common/LmHandler/packages/LmhpRemoteMcastSetup.c.i
 
 common/LmHandler/packages/LmhpRemoteMcastSetup.s: common/LmHandler/packages/LmhpRemoteMcastSetup.c.s
@@ -341,7 +341,7 @@ common/LmHandler/packages/LmhpRemoteMcastSetup.s: common/LmHandler/packages/Lmhp
 
 # target to generate assembly for a file
 common/LmHandler/packages/LmhpRemoteMcastSetup.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpRemoteMcastSetup.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpRemoteMcastSetup.c.s
 .PHONY : common/LmHandler/packages/LmhpRemoteMcastSetup.c.s
 
 common/LmHandlerMsgDisplay.obj: common/LmHandlerMsgDisplay.c.obj
@@ -350,7 +350,7 @@ common/LmHandlerMsgDisplay.obj: common/LmHandlerMsgDisplay.c.obj
 
 # target to build an object file
 common/LmHandlerMsgDisplay.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandlerMsgDisplay.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandlerMsgDisplay.c.obj
 .PHONY : common/LmHandlerMsgDisplay.c.obj
 
 common/LmHandlerMsgDisplay.i: common/LmHandlerMsgDisplay.c.i
@@ -359,7 +359,7 @@ common/LmHandlerMsgDisplay.i: common/LmHandlerMsgDisplay.c.i
 
 # target to preprocess a source file
 common/LmHandlerMsgDisplay.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandlerMsgDisplay.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandlerMsgDisplay.c.i
 .PHONY : common/LmHandlerMsgDisplay.c.i
 
 common/LmHandlerMsgDisplay.s: common/LmHandlerMsgDisplay.c.s
@@ -368,7 +368,7 @@ common/LmHandlerMsgDisplay.s: common/LmHandlerMsgDisplay.c.s
 
 # target to generate assembly for a file
 common/LmHandlerMsgDisplay.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandlerMsgDisplay.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandlerMsgDisplay.c.s
 .PHONY : common/LmHandlerMsgDisplay.c.s
 
 common/NvmCtxMgmt.obj: common/NvmCtxMgmt.c.obj
@@ -377,7 +377,7 @@ common/NvmCtxMgmt.obj: common/NvmCtxMgmt.c.obj
 
 # target to build an object file
 common/NvmCtxMgmt.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/NvmCtxMgmt.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/NvmCtxMgmt.c.obj
 .PHONY : common/NvmCtxMgmt.c.obj
 
 common/NvmCtxMgmt.i: common/NvmCtxMgmt.c.i
@@ -386,7 +386,7 @@ common/NvmCtxMgmt.i: common/NvmCtxMgmt.c.i
 
 # target to preprocess a source file
 common/NvmCtxMgmt.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/NvmCtxMgmt.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/NvmCtxMgmt.c.i
 .PHONY : common/NvmCtxMgmt.c.i
 
 common/NvmCtxMgmt.s: common/NvmCtxMgmt.c.s
@@ -395,8 +395,35 @@ common/NvmCtxMgmt.s: common/NvmCtxMgmt.c.s
 
 # target to generate assembly for a file
 common/NvmCtxMgmt.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/NvmCtxMgmt.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/NvmCtxMgmt.c.s
 .PHONY : common/NvmCtxMgmt.c.s
+
+periodic-uplink-lpp/B-L072Z-LRWAN1/app.obj: periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.obj
+
+.PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/app.obj
+
+# target to build an object file
+periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.obj:
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.obj
+.PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.obj
+
+periodic-uplink-lpp/B-L072Z-LRWAN1/app.i: periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.i
+
+.PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/app.i
+
+# target to preprocess a source file
+periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.i:
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.i
+.PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.i
+
+periodic-uplink-lpp/B-L072Z-LRWAN1/app.s: periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.s
+
+.PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/app.s
+
+# target to generate assembly for a file
+periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.s:
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.s
+.PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.s
 
 periodic-uplink-lpp/B-L072Z-LRWAN1/main.obj: periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj
 
@@ -404,7 +431,7 @@ periodic-uplink-lpp/B-L072Z-LRWAN1/main.obj: periodic-uplink-lpp/B-L072Z-LRWAN1/
 
 # target to build an object file
 periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj
 .PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj
 
 periodic-uplink-lpp/B-L072Z-LRWAN1/main.i: periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.i
@@ -413,7 +440,7 @@ periodic-uplink-lpp/B-L072Z-LRWAN1/main.i: periodic-uplink-lpp/B-L072Z-LRWAN1/ma
 
 # target to preprocess a source file
 periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.i
 .PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.i
 
 periodic-uplink-lpp/B-L072Z-LRWAN1/main.s: periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.s
@@ -422,7 +449,7 @@ periodic-uplink-lpp/B-L072Z-LRWAN1/main.s: periodic-uplink-lpp/B-L072Z-LRWAN1/ma
 
 # target to generate assembly for a file
 periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.s
 .PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.s
 
 # Help Target
@@ -463,6 +490,9 @@ help:
 	@echo "... common/NvmCtxMgmt.obj"
 	@echo "... common/NvmCtxMgmt.i"
 	@echo "... common/NvmCtxMgmt.s"
+	@echo "... periodic-uplink-lpp/B-L072Z-LRWAN1/app.obj"
+	@echo "... periodic-uplink-lpp/B-L072Z-LRWAN1/app.i"
+	@echo "... periodic-uplink-lpp/B-L072Z-LRWAN1/app.s"
 	@echo "... periodic-uplink-lpp/B-L072Z-LRWAN1/main.obj"
 	@echo "... periodic-uplink-lpp/B-L072Z-LRWAN1/main.i"
 	@echo "... periodic-uplink-lpp/B-L072Z-LRWAN1/main.s"
@@ -477,6 +507,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

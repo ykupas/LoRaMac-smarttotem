@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kupas/TCC/LoRaMac-smarttotem
+CMAKE_SOURCE_DIR = /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kupas/TCC/LoRaMac-smarttotem/build
+CMAKE_BINARY_DIR = /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles /home/kupas/TCC/LoRaMac-smarttotem/build/src/system/CMakeFiles/progress.marks
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/system/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles 0
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/system/CMakeFiles/progress.marks
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/system/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/system/clean
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/system/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/system/preinstall
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/system/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/system/preinstall
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/system/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/system/CMakeFiles/system.dir/rule:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/system/CMakeFiles/system.dir/rule
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/system/CMakeFiles/system.dir/rule
 .PHONY : src/system/CMakeFiles/system.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ system: src/system/CMakeFiles/system.dir/rule
 
 # fast build rule for target.
 system/fast:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/build
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/build
 .PHONY : system/fast
 
 adc.obj: adc.c.obj
@@ -131,7 +131,7 @@ adc.obj: adc.c.obj
 
 # target to build an object file
 adc.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/adc.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/adc.c.obj
 .PHONY : adc.c.obj
 
 adc.i: adc.c.i
@@ -140,7 +140,7 @@ adc.i: adc.c.i
 
 # target to preprocess a source file
 adc.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/adc.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/adc.c.i
 .PHONY : adc.c.i
 
 adc.s: adc.c.s
@@ -149,7 +149,7 @@ adc.s: adc.c.s
 
 # target to generate assembly for a file
 adc.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/adc.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/adc.c.s
 .PHONY : adc.c.s
 
 delay.obj: delay.c.obj
@@ -158,7 +158,7 @@ delay.obj: delay.c.obj
 
 # target to build an object file
 delay.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/delay.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/delay.c.obj
 .PHONY : delay.c.obj
 
 delay.i: delay.c.i
@@ -167,7 +167,7 @@ delay.i: delay.c.i
 
 # target to preprocess a source file
 delay.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/delay.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/delay.c.i
 .PHONY : delay.c.i
 
 delay.s: delay.c.s
@@ -176,7 +176,7 @@ delay.s: delay.c.s
 
 # target to generate assembly for a file
 delay.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/delay.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/delay.c.s
 .PHONY : delay.c.s
 
 eeprom.obj: eeprom.c.obj
@@ -185,7 +185,7 @@ eeprom.obj: eeprom.c.obj
 
 # target to build an object file
 eeprom.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/eeprom.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/eeprom.c.obj
 .PHONY : eeprom.c.obj
 
 eeprom.i: eeprom.c.i
@@ -194,7 +194,7 @@ eeprom.i: eeprom.c.i
 
 # target to preprocess a source file
 eeprom.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/eeprom.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/eeprom.c.i
 .PHONY : eeprom.c.i
 
 eeprom.s: eeprom.c.s
@@ -203,7 +203,7 @@ eeprom.s: eeprom.c.s
 
 # target to generate assembly for a file
 eeprom.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/eeprom.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/eeprom.c.s
 .PHONY : eeprom.c.s
 
 fifo.obj: fifo.c.obj
@@ -212,7 +212,7 @@ fifo.obj: fifo.c.obj
 
 # target to build an object file
 fifo.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/fifo.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/fifo.c.obj
 .PHONY : fifo.c.obj
 
 fifo.i: fifo.c.i
@@ -221,7 +221,7 @@ fifo.i: fifo.c.i
 
 # target to preprocess a source file
 fifo.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/fifo.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/fifo.c.i
 .PHONY : fifo.c.i
 
 fifo.s: fifo.c.s
@@ -230,7 +230,7 @@ fifo.s: fifo.c.s
 
 # target to generate assembly for a file
 fifo.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/fifo.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/fifo.c.s
 .PHONY : fifo.c.s
 
 gpio.obj: gpio.c.obj
@@ -239,7 +239,7 @@ gpio.obj: gpio.c.obj
 
 # target to build an object file
 gpio.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/gpio.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/gpio.c.obj
 .PHONY : gpio.c.obj
 
 gpio.i: gpio.c.i
@@ -248,7 +248,7 @@ gpio.i: gpio.c.i
 
 # target to preprocess a source file
 gpio.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/gpio.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/gpio.c.i
 .PHONY : gpio.c.i
 
 gpio.s: gpio.c.s
@@ -257,7 +257,7 @@ gpio.s: gpio.c.s
 
 # target to generate assembly for a file
 gpio.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/gpio.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/gpio.c.s
 .PHONY : gpio.c.s
 
 gps.obj: gps.c.obj
@@ -266,7 +266,7 @@ gps.obj: gps.c.obj
 
 # target to build an object file
 gps.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/gps.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/gps.c.obj
 .PHONY : gps.c.obj
 
 gps.i: gps.c.i
@@ -275,7 +275,7 @@ gps.i: gps.c.i
 
 # target to preprocess a source file
 gps.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/gps.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/gps.c.i
 .PHONY : gps.c.i
 
 gps.s: gps.c.s
@@ -284,7 +284,7 @@ gps.s: gps.c.s
 
 # target to generate assembly for a file
 gps.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/gps.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/gps.c.s
 .PHONY : gps.c.s
 
 i2c.obj: i2c.c.obj
@@ -293,7 +293,7 @@ i2c.obj: i2c.c.obj
 
 # target to build an object file
 i2c.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/i2c.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/i2c.c.obj
 .PHONY : i2c.c.obj
 
 i2c.i: i2c.c.i
@@ -302,7 +302,7 @@ i2c.i: i2c.c.i
 
 # target to preprocess a source file
 i2c.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/i2c.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/i2c.c.i
 .PHONY : i2c.c.i
 
 i2c.s: i2c.c.s
@@ -311,7 +311,7 @@ i2c.s: i2c.c.s
 
 # target to generate assembly for a file
 i2c.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/i2c.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/i2c.c.s
 .PHONY : i2c.c.s
 
 nvmm.obj: nvmm.c.obj
@@ -320,7 +320,7 @@ nvmm.obj: nvmm.c.obj
 
 # target to build an object file
 nvmm.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/nvmm.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/nvmm.c.obj
 .PHONY : nvmm.c.obj
 
 nvmm.i: nvmm.c.i
@@ -329,7 +329,7 @@ nvmm.i: nvmm.c.i
 
 # target to preprocess a source file
 nvmm.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/nvmm.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/nvmm.c.i
 .PHONY : nvmm.c.i
 
 nvmm.s: nvmm.c.s
@@ -338,7 +338,7 @@ nvmm.s: nvmm.c.s
 
 # target to generate assembly for a file
 nvmm.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/nvmm.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/nvmm.c.s
 .PHONY : nvmm.c.s
 
 systime.obj: systime.c.obj
@@ -347,7 +347,7 @@ systime.obj: systime.c.obj
 
 # target to build an object file
 systime.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/systime.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/systime.c.obj
 .PHONY : systime.c.obj
 
 systime.i: systime.c.i
@@ -356,7 +356,7 @@ systime.i: systime.c.i
 
 # target to preprocess a source file
 systime.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/systime.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/systime.c.i
 .PHONY : systime.c.i
 
 systime.s: systime.c.s
@@ -365,7 +365,7 @@ systime.s: systime.c.s
 
 # target to generate assembly for a file
 systime.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/systime.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/systime.c.s
 .PHONY : systime.c.s
 
 timer.obj: timer.c.obj
@@ -374,7 +374,7 @@ timer.obj: timer.c.obj
 
 # target to build an object file
 timer.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/timer.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/timer.c.obj
 .PHONY : timer.c.obj
 
 timer.i: timer.c.i
@@ -383,7 +383,7 @@ timer.i: timer.c.i
 
 # target to preprocess a source file
 timer.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/timer.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/timer.c.i
 .PHONY : timer.c.i
 
 timer.s: timer.c.s
@@ -392,7 +392,7 @@ timer.s: timer.c.s
 
 # target to generate assembly for a file
 timer.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/timer.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/timer.c.s
 .PHONY : timer.c.s
 
 uart.obj: uart.c.obj
@@ -401,7 +401,7 @@ uart.obj: uart.c.obj
 
 # target to build an object file
 uart.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/uart.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/uart.c.obj
 .PHONY : uart.c.obj
 
 uart.i: uart.c.i
@@ -410,7 +410,7 @@ uart.i: uart.c.i
 
 # target to preprocess a source file
 uart.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/uart.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/uart.c.i
 .PHONY : uart.c.i
 
 uart.s: uart.c.s
@@ -419,7 +419,7 @@ uart.s: uart.c.s
 
 # target to generate assembly for a file
 uart.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/uart.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/system/CMakeFiles/system.dir/build.make src/system/CMakeFiles/system.dir/uart.c.s
 .PHONY : uart.c.s
 
 # Help Target
@@ -475,6 +475,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

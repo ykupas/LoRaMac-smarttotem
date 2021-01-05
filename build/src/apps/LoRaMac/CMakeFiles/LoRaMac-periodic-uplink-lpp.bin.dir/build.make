@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kupas/TCC/LoRaMac-smarttotem
+CMAKE_SOURCE_DIR = /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kupas/TCC/LoRaMac-smarttotem/build
+CMAKE_BINARY_DIR = /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build
 
 # Utility rule file for LoRaMac-periodic-uplink-lpp.bin.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/kupas/TCC/LoRaMac-smarttotem/build
 include src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/progress.make
 
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin: src/apps/LoRaMac/LoRaMac-periodic-uplink-lpp
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac && /usr/bin/arm-none-eabi-objcopy -Obinary LoRaMac-periodic-uplink-lpp LoRaMac-periodic-uplink-lpp.bin
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac && /usr/bin/arm-none-eabi-objcopy -Obinary LoRaMac-periodic-uplink-lpp LoRaMac-periodic-uplink-lpp.bin
 
 LoRaMac-periodic-uplink-lpp.bin: src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin
 LoRaMac-periodic-uplink-lpp.bin: src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/build.make
@@ -67,10 +67,10 @@ src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/build: LoRaMac-p
 .PHONY : src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/build
 
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/clean:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac && $(CMAKE_COMMAND) -P CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/cmake_clean.cmake
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac && $(CMAKE_COMMAND) -P CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/cmake_clean.cmake
 .PHONY : src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/clean
 
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/depend:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kupas/TCC/LoRaMac-smarttotem /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac /home/kupas/TCC/LoRaMac-smarttotem/build /home/kupas/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac /home/kupas/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/depend
 

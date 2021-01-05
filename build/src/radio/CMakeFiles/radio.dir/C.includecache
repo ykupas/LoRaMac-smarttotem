@@ -68,41 +68,41 @@ stdbool.h
 stdint.h
 -
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276.c
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276.c
 math.h
 -
 string.h
 -
 utilities.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/radio/sx1276/utilities.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/radio/sx1276/utilities.h
 timer.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/radio/sx1276/timer.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/radio/sx1276/timer.h
 radio.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/radio/sx1276/radio.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/radio/sx1276/radio.h
 delay.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/radio/sx1276/delay.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/radio/sx1276/delay.h
 sx1276.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276.h
 sx1276-board.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276-board.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276-board.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276.h
 stdint.h
 -
 stdbool.h
 -
 gpio.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/radio/sx1276/gpio.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/radio/sx1276/gpio.h
 spi.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/radio/sx1276/spi.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/radio/sx1276/spi.h
 radio.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/radio/sx1276/radio.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/radio/sx1276/radio.h
 sx1276Regs-Fsk.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276Regs-Fsk.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276Regs-Fsk.h
 sx1276Regs-LoRa.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276Regs-LoRa.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276Regs-LoRa.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276Regs-Fsk.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276Regs-Fsk.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276Regs-LoRa.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276Regs-LoRa.h
 

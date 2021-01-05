@@ -100,55 +100,55 @@ fifo.h
 gpio.h
 ../src/system/gpio.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/adc.c
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/adc.c
 stdbool.h
 -
 adc-board.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/adc-board.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/adc-board.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/delay.c
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/delay.c
 delay-board.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/delay-board.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/delay-board.h
 delay.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/delay.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/delay.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/delay.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/delay.h
 stdint.h
 -
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/eeprom.c
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/eeprom.c
 eeprom-board.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/eeprom-board.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/eeprom-board.h
 eeprom.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/eeprom.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/eeprom.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/eeprom.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/eeprom.h
 stdint.h
 -
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/fifo.c
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/fifo.c
 fifo.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/fifo.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/fifo.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/fifo.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/fifo.h
 stdbool.h
 -
 stdint.h
 -
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/gpio.c
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/gpio.c
 gpio-board.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/gpio-board.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/gpio-board.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/gpio.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/gpio.h
 stdint.h
 -
 pinName-board.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/pinName-board.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/pinName-board.h
 pinName-ioe.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/pinName-ioe.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/pinName-ioe.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/gps.c
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/gps.c
 stdint.h
 -
 stdlib.h
@@ -160,71 +160,71 @@ stdio.h
 string.h
 -
 utilities.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/utilities.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/utilities.h
 board.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/board.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/board.h
 rtc-board.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/rtc-board.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/rtc-board.h
 gps-board.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/gps-board.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/gps-board.h
 gps.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/gps.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/gps.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/gps.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/gps.h
 stdint.h
 -
 stdbool.h
 -
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/i2c.c
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/i2c.c
 stdbool.h
 -
 utilities.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/utilities.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/utilities.h
 i2c-board.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/i2c-board.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/i2c-board.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/nvmm.c
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/nvmm.c
 stdint.h
 -
 utilities.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/utilities.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/utilities.h
 eeprom.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/eeprom.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/eeprom.h
 nvmm.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/nvmm.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/nvmm.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/nvmm.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/nvmm.h
 stdlib.h
 -
 stdint.h
 -
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/systime.c
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/systime.c
 stdio.h
 -
 rtc-board.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/rtc-board.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/rtc-board.h
 systime.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/systime.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/systime.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/systime.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/systime.h
 stdint.h
 -
 time.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/time.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/time.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/timer.c
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/timer.c
 utilities.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/utilities.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/utilities.h
 board.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/board.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/board.h
 rtc-board.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/rtc-board.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/rtc-board.h
 timer.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/timer.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/timer.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/timer.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/timer.h
 stddef.h
 -
 stdbool.h
@@ -232,15 +232,15 @@ stdbool.h
 stdint.h
 -
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/uart.c
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/uart.c
 uart-board.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/uart-board.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/uart-board.h
 uart.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/uart.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/uart.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/uart.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/uart.h
 fifo.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/fifo.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/fifo.h
 gpio.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/system/gpio.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/system/gpio.h
 

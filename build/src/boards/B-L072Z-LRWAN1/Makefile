@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kupas/TCC/LoRaMac-smarttotem
+CMAKE_SOURCE_DIR = /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kupas/TCC/LoRaMac-smarttotem/build
+CMAKE_BINARY_DIR = /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1/CMakeFiles/progress.marks
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/boards/B-L072Z-LRWAN1/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles 0
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1/CMakeFiles/progress.marks
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/boards/B-L072Z-LRWAN1/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/boards/B-L072Z-LRWAN1/clean
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/boards/B-L072Z-LRWAN1/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/boards/B-L072Z-LRWAN1/preinstall
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/boards/B-L072Z-LRWAN1/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/boards/B-L072Z-LRWAN1/preinstall
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/boards/B-L072Z-LRWAN1/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/rule:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/rule
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f CMakeFiles/Makefile2 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/rule
 .PHONY : src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ B-L072Z-LRWAN1: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/rule
 
 # fast build rule for target.
 B-L072Z-LRWAN1/fast:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build
 .PHONY : B-L072Z-LRWAN1/fast
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.obj: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
@@ -131,7 +131,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.obj: __/mcu/stm32/STM32L0xx_
 
 # target to build an object file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.i: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.i
@@ -140,7 +140,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.i: __/mcu/stm32/STM32L0xx_HA
 
 # target to preprocess a source file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.i
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.i
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.s: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.s
@@ -149,7 +149,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.s: __/mcu/stm32/STM32L0xx_HA
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.s
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.s
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.obj: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.obj
@@ -158,7 +158,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.obj: __/mcu/stm32/STM32L
 
 # target to build an object file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.obj
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.obj
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.i: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.i
@@ -167,7 +167,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.i: __/mcu/stm32/STM32L0x
 
 # target to preprocess a source file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.i
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.i
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.s: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.s
@@ -176,7 +176,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.s: __/mcu/stm32/STM32L0x
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.s
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.s
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.obj: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.obj
@@ -185,7 +185,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.obj: __/mcu/stm32/STM
 
 # target to build an object file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.obj
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.obj
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.i: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.i
@@ -194,7 +194,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.i: __/mcu/stm32/STM32
 
 # target to preprocess a source file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.i
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.i
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.s: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.s
@@ -203,7 +203,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.s: __/mcu/stm32/STM32
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.s
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.s
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.obj: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
@@ -212,7 +212,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.obj: __/mcu/stm32/STM
 
 # target to build an object file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.i: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.i
@@ -221,7 +221,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.i: __/mcu/stm32/STM32
 
 # target to preprocess a source file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.i
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.i
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.s: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.s
@@ -230,7 +230,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.s: __/mcu/stm32/STM32
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.s
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.s
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.obj: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
@@ -239,7 +239,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.obj: __/mcu/stm32/STM32L
 
 # target to build an object file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.i: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.i
@@ -248,7 +248,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.i: __/mcu/stm32/STM32L0x
 
 # target to preprocess a source file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.i
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.i
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.s: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.s
@@ -257,7 +257,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.s: __/mcu/stm32/STM32L0x
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.s
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.s
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.obj: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.obj
@@ -266,7 +266,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.obj: __/mcu/stm32/STM3
 
 # target to build an object file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.obj
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.obj
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.i: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.i
@@ -275,7 +275,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.i: __/mcu/stm32/STM32L
 
 # target to preprocess a source file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.i
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.i
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.s: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.s
@@ -284,7 +284,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.s: __/mcu/stm32/STM32L
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.s
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.s
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.obj: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.obj
@@ -293,7 +293,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.obj: __/mcu/stm32/S
 
 # target to build an object file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.obj
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.obj
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.i: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.i
@@ -302,7 +302,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.i: __/mcu/stm32/STM
 
 # target to preprocess a source file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.i
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.i
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.s: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.s
@@ -311,7 +311,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.s: __/mcu/stm32/STM
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.s
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.s
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.obj: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
@@ -320,7 +320,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.obj: __/mcu/stm32/STM32
 
 # target to build an object file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.i: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.i
@@ -329,7 +329,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.i: __/mcu/stm32/STM32L0
 
 # target to preprocess a source file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.i
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.i
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.s: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.s
@@ -338,7 +338,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.s: __/mcu/stm32/STM32L0
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.s
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.s
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.obj: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj
@@ -347,7 +347,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.obj: __/mcu/stm32/STM32L
 
 # target to build an object file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.i: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.i
@@ -356,7 +356,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.i: __/mcu/stm32/STM32L0x
 
 # target to preprocess a source file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.i
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.i
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.s: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.s
@@ -365,7 +365,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.s: __/mcu/stm32/STM32L0x
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.s
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.s
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.obj: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
@@ -374,7 +374,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.obj: __/mcu/stm32/STM
 
 # target to build an object file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.i: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.i
@@ -383,7 +383,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.i: __/mcu/stm32/STM32
 
 # target to preprocess a source file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.i
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.i
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.s: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.s
@@ -392,7 +392,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.s: __/mcu/stm32/STM32
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.s
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.s
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.obj: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.obj
@@ -401,7 +401,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.obj: __/mcu/stm32/STM32L
 
 # target to build an object file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.obj
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.obj
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.i: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.i
@@ -410,7 +410,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.i: __/mcu/stm32/STM32L0x
 
 # target to preprocess a source file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.i
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.i
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.s: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.s
@@ -419,7 +419,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.s: __/mcu/stm32/STM32L0x
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.s
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.s
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.obj: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.obj
@@ -428,7 +428,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.obj: __/mcu/stm32/STM
 
 # target to build an object file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.obj
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.obj
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.i: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.i
@@ -437,7 +437,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.i: __/mcu/stm32/STM32
 
 # target to preprocess a source file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.i
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.i
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.s: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.s
@@ -446,7 +446,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.s: __/mcu/stm32/STM32
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.s
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.s
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.obj: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
@@ -455,7 +455,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.obj: __/mcu/stm32/STM32L
 
 # target to build an object file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.i: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.i
@@ -464,7 +464,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.i: __/mcu/stm32/STM32L0x
 
 # target to preprocess a source file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.i
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.i
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.s: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.s
@@ -473,7 +473,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.s: __/mcu/stm32/STM32L0x
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.s
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.s
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.obj: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
@@ -482,7 +482,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.obj: __/mcu/stm32/STM
 
 # target to build an object file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.i: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.i
@@ -491,7 +491,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.i: __/mcu/stm32/STM32
 
 # target to preprocess a source file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.i
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.i
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.s: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.s
@@ -500,7 +500,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.s: __/mcu/stm32/STM32
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.s
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.s
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.obj: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.obj
@@ -509,7 +509,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.obj: __/mcu/stm32/STM32L
 
 # target to build an object file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.obj
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.obj
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.i: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.i
@@ -518,7 +518,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.i: __/mcu/stm32/STM32L0x
 
 # target to preprocess a source file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.i
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.i
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.s: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.s
@@ -527,7 +527,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.s: __/mcu/stm32/STM32L0x
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.s
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.s
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.obj: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.obj
@@ -536,7 +536,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.obj: __/mcu/stm32/STM
 
 # target to build an object file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.obj
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.obj
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.i: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.i
@@ -545,7 +545,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.i: __/mcu/stm32/STM32
 
 # target to preprocess a source file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.i
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.i
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.s: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.s
@@ -554,7 +554,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.s: __/mcu/stm32/STM32
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.s
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.s
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.obj: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.obj
@@ -563,7 +563,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.obj: __/mcu/stm32/STM32L
 
 # target to build an object file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.obj
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.obj
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.i: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.i
@@ -572,7 +572,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.i: __/mcu/stm32/STM32L0x
 
 # target to preprocess a source file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.i
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.i
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.s: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.s
@@ -581,7 +581,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.s: __/mcu/stm32/STM32L0x
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.s
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.s
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.obj: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
@@ -590,7 +590,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.obj: __/mcu/stm32/STM32
 
 # target to build an object file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.i: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.i
@@ -599,7 +599,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.i: __/mcu/stm32/STM32L0
 
 # target to preprocess a source file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.i
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.i
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.s: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.s
@@ -608,7 +608,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.s: __/mcu/stm32/STM32L0
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.s
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.s
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.obj: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
@@ -617,7 +617,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.obj: __/mcu/stm32/ST
 
 # target to build an object file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.i: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.i
@@ -626,7 +626,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.i: __/mcu/stm32/STM3
 
 # target to preprocess a source file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.i
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.i
 
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.s: __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.s
@@ -635,7 +635,7 @@ __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.s: __/mcu/stm32/STM3
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.s
 .PHONY : __/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.s
 
 __/mcu/utilities.obj: __/mcu/utilities.c.obj
@@ -644,7 +644,7 @@ __/mcu/utilities.obj: __/mcu/utilities.c.obj
 
 # target to build an object file
 __/mcu/utilities.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/utilities.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/utilities.c.obj
 .PHONY : __/mcu/utilities.c.obj
 
 __/mcu/utilities.i: __/mcu/utilities.c.i
@@ -653,7 +653,7 @@ __/mcu/utilities.i: __/mcu/utilities.c.i
 
 # target to preprocess a source file
 __/mcu/utilities.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/utilities.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/utilities.c.i
 .PHONY : __/mcu/utilities.c.i
 
 __/mcu/utilities.s: __/mcu/utilities.c.s
@@ -662,7 +662,7 @@ __/mcu/utilities.s: __/mcu/utilities.c.s
 
 # target to generate assembly for a file
 __/mcu/utilities.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/utilities.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/utilities.c.s
 .PHONY : __/mcu/utilities.c.s
 
 adc-board.obj: adc-board.c.obj
@@ -671,7 +671,7 @@ adc-board.obj: adc-board.c.obj
 
 # target to build an object file
 adc-board.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/adc-board.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/adc-board.c.obj
 .PHONY : adc-board.c.obj
 
 adc-board.i: adc-board.c.i
@@ -680,7 +680,7 @@ adc-board.i: adc-board.c.i
 
 # target to preprocess a source file
 adc-board.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/adc-board.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/adc-board.c.i
 .PHONY : adc-board.c.i
 
 adc-board.s: adc-board.c.s
@@ -689,7 +689,7 @@ adc-board.s: adc-board.c.s
 
 # target to generate assembly for a file
 adc-board.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/adc-board.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/adc-board.c.s
 .PHONY : adc-board.c.s
 
 board.obj: board.c.obj
@@ -698,7 +698,7 @@ board.obj: board.c.obj
 
 # target to build an object file
 board.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/board.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/board.c.obj
 .PHONY : board.c.obj
 
 board.i: board.c.i
@@ -707,7 +707,7 @@ board.i: board.c.i
 
 # target to preprocess a source file
 board.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/board.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/board.c.i
 .PHONY : board.c.i
 
 board.s: board.c.s
@@ -716,7 +716,7 @@ board.s: board.c.s
 
 # target to generate assembly for a file
 board.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/board.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/board.c.s
 .PHONY : board.c.s
 
 cmsis/arm-gcc/startup_stm32l072xx.obj: cmsis/arm-gcc/startup_stm32l072xx.s.obj
@@ -725,7 +725,7 @@ cmsis/arm-gcc/startup_stm32l072xx.obj: cmsis/arm-gcc/startup_stm32l072xx.s.obj
 
 # target to build an object file
 cmsis/arm-gcc/startup_stm32l072xx.s.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/arm-gcc/startup_stm32l072xx.s.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/arm-gcc/startup_stm32l072xx.s.obj
 .PHONY : cmsis/arm-gcc/startup_stm32l072xx.s.obj
 
 cmsis/system_stm32l0xx.obj: cmsis/system_stm32l0xx.c.obj
@@ -734,7 +734,7 @@ cmsis/system_stm32l0xx.obj: cmsis/system_stm32l0xx.c.obj
 
 # target to build an object file
 cmsis/system_stm32l0xx.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/system_stm32l0xx.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/system_stm32l0xx.c.obj
 .PHONY : cmsis/system_stm32l0xx.c.obj
 
 cmsis/system_stm32l0xx.i: cmsis/system_stm32l0xx.c.i
@@ -743,7 +743,7 @@ cmsis/system_stm32l0xx.i: cmsis/system_stm32l0xx.c.i
 
 # target to preprocess a source file
 cmsis/system_stm32l0xx.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/system_stm32l0xx.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/system_stm32l0xx.c.i
 .PHONY : cmsis/system_stm32l0xx.c.i
 
 cmsis/system_stm32l0xx.s: cmsis/system_stm32l0xx.c.s
@@ -752,7 +752,7 @@ cmsis/system_stm32l0xx.s: cmsis/system_stm32l0xx.c.s
 
 # target to generate assembly for a file
 cmsis/system_stm32l0xx.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/system_stm32l0xx.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/system_stm32l0xx.c.s
 .PHONY : cmsis/system_stm32l0xx.c.s
 
 delay-board.obj: delay-board.c.obj
@@ -761,7 +761,7 @@ delay-board.obj: delay-board.c.obj
 
 # target to build an object file
 delay-board.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/delay-board.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/delay-board.c.obj
 .PHONY : delay-board.c.obj
 
 delay-board.i: delay-board.c.i
@@ -770,7 +770,7 @@ delay-board.i: delay-board.c.i
 
 # target to preprocess a source file
 delay-board.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/delay-board.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/delay-board.c.i
 .PHONY : delay-board.c.i
 
 delay-board.s: delay-board.c.s
@@ -779,7 +779,7 @@ delay-board.s: delay-board.c.s
 
 # target to generate assembly for a file
 delay-board.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/delay-board.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/delay-board.c.s
 .PHONY : delay-board.c.s
 
 eeprom-board.obj: eeprom-board.c.obj
@@ -788,7 +788,7 @@ eeprom-board.obj: eeprom-board.c.obj
 
 # target to build an object file
 eeprom-board.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/eeprom-board.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/eeprom-board.c.obj
 .PHONY : eeprom-board.c.obj
 
 eeprom-board.i: eeprom-board.c.i
@@ -797,7 +797,7 @@ eeprom-board.i: eeprom-board.c.i
 
 # target to preprocess a source file
 eeprom-board.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/eeprom-board.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/eeprom-board.c.i
 .PHONY : eeprom-board.c.i
 
 eeprom-board.s: eeprom-board.c.s
@@ -806,7 +806,7 @@ eeprom-board.s: eeprom-board.c.s
 
 # target to generate assembly for a file
 eeprom-board.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/eeprom-board.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/eeprom-board.c.s
 .PHONY : eeprom-board.c.s
 
 gpio-board.obj: gpio-board.c.obj
@@ -815,7 +815,7 @@ gpio-board.obj: gpio-board.c.obj
 
 # target to build an object file
 gpio-board.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/gpio-board.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/gpio-board.c.obj
 .PHONY : gpio-board.c.obj
 
 gpio-board.i: gpio-board.c.i
@@ -824,7 +824,7 @@ gpio-board.i: gpio-board.c.i
 
 # target to preprocess a source file
 gpio-board.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/gpio-board.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/gpio-board.c.i
 .PHONY : gpio-board.c.i
 
 gpio-board.s: gpio-board.c.s
@@ -833,7 +833,7 @@ gpio-board.s: gpio-board.c.s
 
 # target to generate assembly for a file
 gpio-board.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/gpio-board.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/gpio-board.c.s
 .PHONY : gpio-board.c.s
 
 lpm-board.obj: lpm-board.c.obj
@@ -842,7 +842,7 @@ lpm-board.obj: lpm-board.c.obj
 
 # target to build an object file
 lpm-board.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/lpm-board.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/lpm-board.c.obj
 .PHONY : lpm-board.c.obj
 
 lpm-board.i: lpm-board.c.i
@@ -851,7 +851,7 @@ lpm-board.i: lpm-board.c.i
 
 # target to preprocess a source file
 lpm-board.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/lpm-board.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/lpm-board.c.i
 .PHONY : lpm-board.c.i
 
 lpm-board.s: lpm-board.c.s
@@ -860,7 +860,7 @@ lpm-board.s: lpm-board.c.s
 
 # target to generate assembly for a file
 lpm-board.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/lpm-board.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/lpm-board.c.s
 .PHONY : lpm-board.c.s
 
 rtc-board.obj: rtc-board.c.obj
@@ -869,7 +869,7 @@ rtc-board.obj: rtc-board.c.obj
 
 # target to build an object file
 rtc-board.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/rtc-board.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/rtc-board.c.obj
 .PHONY : rtc-board.c.obj
 
 rtc-board.i: rtc-board.c.i
@@ -878,7 +878,7 @@ rtc-board.i: rtc-board.c.i
 
 # target to preprocess a source file
 rtc-board.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/rtc-board.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/rtc-board.c.i
 .PHONY : rtc-board.c.i
 
 rtc-board.s: rtc-board.c.s
@@ -887,7 +887,7 @@ rtc-board.s: rtc-board.c.s
 
 # target to generate assembly for a file
 rtc-board.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/rtc-board.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/rtc-board.c.s
 .PHONY : rtc-board.c.s
 
 spi-board.obj: spi-board.c.obj
@@ -896,7 +896,7 @@ spi-board.obj: spi-board.c.obj
 
 # target to build an object file
 spi-board.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/spi-board.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/spi-board.c.obj
 .PHONY : spi-board.c.obj
 
 spi-board.i: spi-board.c.i
@@ -905,7 +905,7 @@ spi-board.i: spi-board.c.i
 
 # target to preprocess a source file
 spi-board.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/spi-board.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/spi-board.c.i
 .PHONY : spi-board.c.i
 
 spi-board.s: spi-board.c.s
@@ -914,7 +914,7 @@ spi-board.s: spi-board.c.s
 
 # target to generate assembly for a file
 spi-board.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/spi-board.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/spi-board.c.s
 .PHONY : spi-board.c.s
 
 sx1276-board.obj: sx1276-board.c.obj
@@ -923,7 +923,7 @@ sx1276-board.obj: sx1276-board.c.obj
 
 # target to build an object file
 sx1276-board.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/sx1276-board.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/sx1276-board.c.obj
 .PHONY : sx1276-board.c.obj
 
 sx1276-board.i: sx1276-board.c.i
@@ -932,7 +932,7 @@ sx1276-board.i: sx1276-board.c.i
 
 # target to preprocess a source file
 sx1276-board.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/sx1276-board.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/sx1276-board.c.i
 .PHONY : sx1276-board.c.i
 
 sx1276-board.s: sx1276-board.c.s
@@ -941,7 +941,7 @@ sx1276-board.s: sx1276-board.c.s
 
 # target to generate assembly for a file
 sx1276-board.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/sx1276-board.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/sx1276-board.c.s
 .PHONY : sx1276-board.c.s
 
 sysIrqHandlers.obj: sysIrqHandlers.c.obj
@@ -950,7 +950,7 @@ sysIrqHandlers.obj: sysIrqHandlers.c.obj
 
 # target to build an object file
 sysIrqHandlers.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/sysIrqHandlers.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/sysIrqHandlers.c.obj
 .PHONY : sysIrqHandlers.c.obj
 
 sysIrqHandlers.i: sysIrqHandlers.c.i
@@ -959,7 +959,7 @@ sysIrqHandlers.i: sysIrqHandlers.c.i
 
 # target to preprocess a source file
 sysIrqHandlers.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/sysIrqHandlers.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/sysIrqHandlers.c.i
 .PHONY : sysIrqHandlers.c.i
 
 sysIrqHandlers.s: sysIrqHandlers.c.s
@@ -968,7 +968,7 @@ sysIrqHandlers.s: sysIrqHandlers.c.s
 
 # target to generate assembly for a file
 sysIrqHandlers.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/sysIrqHandlers.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/sysIrqHandlers.c.s
 .PHONY : sysIrqHandlers.c.s
 
 uart-board.obj: uart-board.c.obj
@@ -977,7 +977,7 @@ uart-board.obj: uart-board.c.obj
 
 # target to build an object file
 uart-board.c.obj:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/uart-board.c.obj
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/uart-board.c.obj
 .PHONY : uart-board.c.obj
 
 uart-board.i: uart-board.c.i
@@ -986,7 +986,7 @@ uart-board.i: uart-board.c.i
 
 # target to preprocess a source file
 uart-board.c.i:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/uart-board.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/uart-board.c.i
 .PHONY : uart-board.c.i
 
 uart-board.s: uart-board.c.s
@@ -995,7 +995,7 @@ uart-board.s: uart-board.c.s
 
 # target to generate assembly for a file
 uart-board.c.s:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/uart-board.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build.make src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/uart-board.c.s
 .PHONY : uart-board.c.s
 
 # Help Target
@@ -1115,6 +1115,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

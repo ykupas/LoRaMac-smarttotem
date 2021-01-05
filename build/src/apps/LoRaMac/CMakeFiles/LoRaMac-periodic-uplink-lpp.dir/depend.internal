@@ -3,8 +3,8 @@
 
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/CayenneLpp.c.obj
  ../src/boards/utilities.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/CayenneLpp.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/CayenneLpp.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/CayenneLpp.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/CayenneLpp.h
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/LmHandler.c.obj
  ../src/apps/LoRaMac/common/Commissioning.h
  ../src/apps/LoRaMac/common/LmHandler/packages/FragDecoder.h
@@ -25,13 +25,13 @@ src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/LmH
  ../src/radio/radio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/LmHandler.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/LmHandler.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/LmHandlerTypes.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/LmHandler.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/LmHandler.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/LmHandlerTypes.h
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/FragDecoder.c.obj
  ../src/boards/utilities.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/FragDecoder.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/FragDecoder.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/FragDecoder.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/FragDecoder.h
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpClockSync.c.obj
  ../src/apps/LoRaMac/common/LmHandler/LmHandler.h
  ../src/apps/LoRaMac/common/LmHandler/LmHandlerTypes.h
@@ -45,9 +45,9 @@ src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/pac
  ../src/radio/radio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/LmhPackage.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/LmhpClockSync.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/LmhpClockSync.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/LmhPackage.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/LmhpClockSync.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/LmhpClockSync.h
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpCompliance.c.obj
  ../src/apps/LoRaMac/common/LmHandler/LmHandlerTypes.h
  ../src/boards/utilities.h
@@ -60,9 +60,9 @@ src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/pac
  ../src/radio/radio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/LmhPackage.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/LmhpCompliance.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/LmhpCompliance.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/LmhPackage.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/LmhpCompliance.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/LmhpCompliance.h
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpFragmentation.c.obj
  ../src/apps/LoRaMac/common/LmHandler/LmHandler.h
  ../src/apps/LoRaMac/common/LmHandler/LmHandlerTypes.h
@@ -76,10 +76,10 @@ src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/pac
  ../src/radio/radio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/FragDecoder.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/LmhPackage.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/LmhpFragmentation.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/LmhpFragmentation.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/FragDecoder.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/LmhPackage.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/LmhpFragmentation.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/LmhpFragmentation.h
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpRemoteMcastSetup.c.obj
  ../src/apps/LoRaMac/common/LmHandler/LmHandler.h
  ../src/apps/LoRaMac/common/LmHandler/LmHandlerTypes.h
@@ -93,9 +93,9 @@ src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/pac
  ../src/radio/radio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/LmhPackage.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/LmhpRemoteMcastSetup.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/LmhpRemoteMcastSetup.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/LmhPackage.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/LmhpRemoteMcastSetup.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandler/packages/LmhpRemoteMcastSetup.h
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandlerMsgDisplay.c.obj
  ../src/apps/LoRaMac/common/LmHandler/LmHandler.h
  ../src/apps/LoRaMac/common/LmHandler/LmHandlerTypes.h
@@ -110,8 +110,8 @@ src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandlerMsgD
  ../src/radio/radio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandlerMsgDisplay.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandlerMsgDisplay.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandlerMsgDisplay.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandlerMsgDisplay.h
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/NvmCtxMgmt.c.obj
  ../src/boards/utilities.h
  ../src/mac/LoRaMac.h
@@ -124,8 +124,32 @@ src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/NvmCtxMgmt.c.
  ../src/system/nvmm.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/NvmCtxMgmt.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/NvmCtxMgmt.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/NvmCtxMgmt.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/NvmCtxMgmt.h
+src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.obj
+ ../src/apps/LoRaMac/common/CayenneLpp.h
+ ../src/apps/LoRaMac/common/Commissioning.h
+ ../src/apps/LoRaMac/common/LmHandler/LmHandler.h
+ ../src/apps/LoRaMac/common/LmHandler/LmHandlerTypes.h
+ ../src/apps/LoRaMac/common/LmHandler/packages/LmhPackage.h
+ ../src/apps/LoRaMac/common/LmHandler/packages/LmhpCompliance.h
+ ../src/apps/LoRaMac/common/LmHandlerMsgDisplay.h
+ ../src/boards/board.h
+ ../src/boards/pinName-board.h
+ ../src/boards/pinName-ioe.h
+ ../src/boards/utilities.h
+ ../src/mac/LoRaMac.h
+ ../src/mac/LoRaMacHeaderTypes.h
+ ../src/mac/LoRaMacTypes.h
+ ../src/mac/region/Region.h
+ ../src/mac/region/RegionCommon.h
+ ../src/peripherals/soft-se/se-identity.h
+ ../src/radio/radio.h
+ ../src/system/gpio.h
+ ../src/system/systime.h
+ ../src/system/timer.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/app.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/app.h
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj
  ../src/apps/LoRaMac/common/CayenneLpp.h
  ../src/apps/LoRaMac/common/Commissioning.h
@@ -148,4 +172,5 @@ src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/
  ../src/system/gpio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/app.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c
