@@ -12,7 +12,7 @@ src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
  ../src/system/gpio.h
  ../src/system/spi.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276Regs-Fsk.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276Regs-LoRa.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276Regs-Fsk.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/radio/sx1276/sx1276Regs-LoRa.h

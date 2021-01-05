@@ -1,4 +1,4 @@
-# Install script for directory: /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1
+# Install script for directory: /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

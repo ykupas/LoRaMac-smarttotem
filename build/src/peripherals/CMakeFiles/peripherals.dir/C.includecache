@@ -96,81 +96,81 @@ stdbool.h
 stdint.h
 -
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/gpio-ioe.c
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/gpio-ioe.c
 stdlib.h
 -
 stdbool.h
 -
 gpio-ioe.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/gpio-ioe.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/gpio-ioe.h
 sx1509.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/sx1509.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/sx1509.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/gpio-ioe.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/gpio-ioe.h
 stdint.h
 -
 gpio.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/gpio.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/gpio.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/mag3110.c
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/mag3110.c
 stdbool.h
 -
 utilities.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/utilities.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/utilities.h
 i2c.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/i2c.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/i2c.h
 mag3110.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/mag3110.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/mag3110.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/mag3110.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/mag3110.h
 stdint.h
 -
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/mma8451.c
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/mma8451.c
 stdbool.h
 -
 utilities.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/utilities.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/utilities.h
 i2c.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/i2c.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/i2c.h
 mma8451.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/mma8451.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/mma8451.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/mma8451.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/mma8451.h
 stdint.h
 -
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/mpl3115.c
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/mpl3115.c
 stdbool.h
 -
 utilities.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/utilities.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/utilities.h
 delay.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/delay.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/delay.h
 i2c.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/i2c.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/i2c.h
 mpl3115.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/mpl3115.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/mpl3115.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/mpl3115.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/mpl3115.h
 stdint.h
 -
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/pam7q.c
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/pam7q.c
 utilities.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/utilities.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/utilities.h
 i2c.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/i2c.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/i2c.h
 pam7q.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/pam7q.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/pam7q.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/pam7q.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/pam7q.h
 stdbool.h
 -
 stdint.h
 -
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/aes.c
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/aes.c
 string.h
 -
 intrin.h
@@ -180,87 +180,87 @@ stdlib.h
 stdint.h
 -
 aes.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/aes.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/aes.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/aes.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/aes.h
 stdint.h
 -
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/cmac.c
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/cmac.c
 stdint.h
 -
 aes.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/aes.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/aes.h
 cmac.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/cmac.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/cmac.h
 utilities.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/utilities.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/utilities.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/cmac.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/cmac.h
 aes.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/aes.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/aes.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/se-identity.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/se-identity.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/soft-se-hal.c
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/soft-se-hal.c
 board.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/board.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/board.h
 radio.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/radio.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/radio.h
 soft-se-hal.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/soft-se-hal.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/soft-se-hal.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/soft-se-hal.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/soft-se-hal.h
 stdint.h
 -
 stdbool.h
 -
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/soft-se.c
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/soft-se.c
 stdlib.h
 -
 stdint.h
 -
 utilities.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/utilities.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/utilities.h
 aes.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/aes.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/aes.h
 cmac.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/cmac.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/cmac.h
 LoRaMacHeaderTypes.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/LoRaMacHeaderTypes.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/LoRaMacHeaderTypes.h
 secure-element.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/secure-element.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/secure-element.h
 se-identity.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/se-identity.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/se-identity.h
 soft-se-hal.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/soft-se-hal.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/soft-se/soft-se-hal.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/sx1509.c
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/sx1509.c
 stdbool.h
 -
 utilities.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/utilities.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/utilities.h
 i2c.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/i2c.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/i2c.h
 sx1509.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/sx1509.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/sx1509.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/sx1509.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/sx1509.h
 stdint.h
 -
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/sx9500.c
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/sx9500.c
 stdbool.h
 -
 utilities.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/utilities.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/utilities.h
 i2c.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/i2c.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/i2c.h
 sx9500.h
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/sx9500.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/sx9500.h
 
-/home/kupas/TCC/LoRaMac-smarttotem/src/peripherals/sx9500.h
+/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/peripherals/sx9500.h
 stdint.h
 -
 

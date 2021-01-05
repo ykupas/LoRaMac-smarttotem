@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kupas/TCC/LoRaMac-smarttotem
+CMAKE_SOURCE_DIR = /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kupas/TCC/LoRaMac-smarttotem/build
+CMAKE_BINARY_DIR = /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build
 
 # Include any dependencies generated for this target.
 include src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/depend.make
@@ -59,424 +59,424 @@ include src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/adc-board.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/adc-board.c.obj: ../src/boards/B-L072Z-LRWAN1/adc-board.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/adc-board.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/adc-board.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/adc-board.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/adc-board.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/adc-board.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/adc-board.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/adc-board.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/adc-board.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/adc-board.c > CMakeFiles/B-L072Z-LRWAN1.dir/adc-board.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/adc-board.c > CMakeFiles/B-L072Z-LRWAN1.dir/adc-board.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/adc-board.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/adc-board.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/adc-board.c -o CMakeFiles/B-L072Z-LRWAN1.dir/adc-board.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/adc-board.c -o CMakeFiles/B-L072Z-LRWAN1.dir/adc-board.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/board.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/board.c.obj: ../src/boards/B-L072Z-LRWAN1/board.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/board.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/board.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/board.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/board.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/board.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/board.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/board.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/board.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/board.c > CMakeFiles/B-L072Z-LRWAN1.dir/board.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/board.c > CMakeFiles/B-L072Z-LRWAN1.dir/board.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/board.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/board.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/board.c -o CMakeFiles/B-L072Z-LRWAN1.dir/board.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/board.c -o CMakeFiles/B-L072Z-LRWAN1.dir/board.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/delay-board.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/delay-board.c.obj: ../src/boards/B-L072Z-LRWAN1/delay-board.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/delay-board.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/delay-board.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/delay-board.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/delay-board.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/delay-board.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/delay-board.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/delay-board.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/delay-board.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/delay-board.c > CMakeFiles/B-L072Z-LRWAN1.dir/delay-board.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/delay-board.c > CMakeFiles/B-L072Z-LRWAN1.dir/delay-board.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/delay-board.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/delay-board.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/delay-board.c -o CMakeFiles/B-L072Z-LRWAN1.dir/delay-board.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/delay-board.c -o CMakeFiles/B-L072Z-LRWAN1.dir/delay-board.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/eeprom-board.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/eeprom-board.c.obj: ../src/boards/B-L072Z-LRWAN1/eeprom-board.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/eeprom-board.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/eeprom-board.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/eeprom-board.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/eeprom-board.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/eeprom-board.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/eeprom-board.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/eeprom-board.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/eeprom-board.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/eeprom-board.c > CMakeFiles/B-L072Z-LRWAN1.dir/eeprom-board.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/eeprom-board.c > CMakeFiles/B-L072Z-LRWAN1.dir/eeprom-board.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/eeprom-board.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/eeprom-board.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/eeprom-board.c -o CMakeFiles/B-L072Z-LRWAN1.dir/eeprom-board.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/eeprom-board.c -o CMakeFiles/B-L072Z-LRWAN1.dir/eeprom-board.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/gpio-board.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/gpio-board.c.obj: ../src/boards/B-L072Z-LRWAN1/gpio-board.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/gpio-board.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/gpio-board.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/gpio-board.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/gpio-board.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/gpio-board.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/gpio-board.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/gpio-board.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/gpio-board.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/gpio-board.c > CMakeFiles/B-L072Z-LRWAN1.dir/gpio-board.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/gpio-board.c > CMakeFiles/B-L072Z-LRWAN1.dir/gpio-board.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/gpio-board.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/gpio-board.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/gpio-board.c -o CMakeFiles/B-L072Z-LRWAN1.dir/gpio-board.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/gpio-board.c -o CMakeFiles/B-L072Z-LRWAN1.dir/gpio-board.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/lpm-board.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/lpm-board.c.obj: ../src/boards/B-L072Z-LRWAN1/lpm-board.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/lpm-board.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/lpm-board.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/lpm-board.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/lpm-board.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/lpm-board.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/lpm-board.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/lpm-board.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/lpm-board.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/lpm-board.c > CMakeFiles/B-L072Z-LRWAN1.dir/lpm-board.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/lpm-board.c > CMakeFiles/B-L072Z-LRWAN1.dir/lpm-board.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/lpm-board.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/lpm-board.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/lpm-board.c -o CMakeFiles/B-L072Z-LRWAN1.dir/lpm-board.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/lpm-board.c -o CMakeFiles/B-L072Z-LRWAN1.dir/lpm-board.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/rtc-board.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/rtc-board.c.obj: ../src/boards/B-L072Z-LRWAN1/rtc-board.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/rtc-board.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/rtc-board.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/rtc-board.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/rtc-board.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/rtc-board.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/rtc-board.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/rtc-board.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/rtc-board.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/rtc-board.c > CMakeFiles/B-L072Z-LRWAN1.dir/rtc-board.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/rtc-board.c > CMakeFiles/B-L072Z-LRWAN1.dir/rtc-board.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/rtc-board.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/rtc-board.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/rtc-board.c -o CMakeFiles/B-L072Z-LRWAN1.dir/rtc-board.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/rtc-board.c -o CMakeFiles/B-L072Z-LRWAN1.dir/rtc-board.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/spi-board.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/spi-board.c.obj: ../src/boards/B-L072Z-LRWAN1/spi-board.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/spi-board.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/spi-board.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/spi-board.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/spi-board.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/spi-board.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/spi-board.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/spi-board.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/spi-board.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/spi-board.c > CMakeFiles/B-L072Z-LRWAN1.dir/spi-board.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/spi-board.c > CMakeFiles/B-L072Z-LRWAN1.dir/spi-board.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/spi-board.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/spi-board.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/spi-board.c -o CMakeFiles/B-L072Z-LRWAN1.dir/spi-board.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/spi-board.c -o CMakeFiles/B-L072Z-LRWAN1.dir/spi-board.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/sx1276-board.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/sx1276-board.c.obj: ../src/boards/B-L072Z-LRWAN1/sx1276-board.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/sx1276-board.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/sx1276-board.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/sx1276-board.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/sx1276-board.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/sx1276-board.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/sx1276-board.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/sx1276-board.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/sx1276-board.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/sx1276-board.c > CMakeFiles/B-L072Z-LRWAN1.dir/sx1276-board.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/sx1276-board.c > CMakeFiles/B-L072Z-LRWAN1.dir/sx1276-board.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/sx1276-board.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/sx1276-board.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/sx1276-board.c -o CMakeFiles/B-L072Z-LRWAN1.dir/sx1276-board.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/sx1276-board.c -o CMakeFiles/B-L072Z-LRWAN1.dir/sx1276-board.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/sysIrqHandlers.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/sysIrqHandlers.c.obj: ../src/boards/B-L072Z-LRWAN1/sysIrqHandlers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/sysIrqHandlers.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/sysIrqHandlers.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/sysIrqHandlers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/sysIrqHandlers.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/sysIrqHandlers.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/sysIrqHandlers.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/sysIrqHandlers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/sysIrqHandlers.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/sysIrqHandlers.c > CMakeFiles/B-L072Z-LRWAN1.dir/sysIrqHandlers.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/sysIrqHandlers.c > CMakeFiles/B-L072Z-LRWAN1.dir/sysIrqHandlers.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/sysIrqHandlers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/sysIrqHandlers.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/sysIrqHandlers.c -o CMakeFiles/B-L072Z-LRWAN1.dir/sysIrqHandlers.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/sysIrqHandlers.c -o CMakeFiles/B-L072Z-LRWAN1.dir/sysIrqHandlers.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/uart-board.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/uart-board.c.obj: ../src/boards/B-L072Z-LRWAN1/uart-board.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/uart-board.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/uart-board.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/uart-board.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/uart-board.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/uart-board.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/uart-board.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/uart-board.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/uart-board.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/uart-board.c > CMakeFiles/B-L072Z-LRWAN1.dir/uart-board.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/uart-board.c > CMakeFiles/B-L072Z-LRWAN1.dir/uart-board.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/uart-board.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/uart-board.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/uart-board.c -o CMakeFiles/B-L072Z-LRWAN1.dir/uart-board.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/uart-board.c -o CMakeFiles/B-L072Z-LRWAN1.dir/uart-board.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/utilities.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/utilities.c.obj: ../src/boards/mcu/utilities.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/utilities.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/utilities.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/utilities.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/utilities.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/utilities.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/utilities.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/utilities.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/utilities.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/utilities.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/utilities.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/utilities.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/utilities.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/utilities.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/utilities.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/utilities.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/utilities.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/utilities.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/utilities.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/arm-gcc/startup_stm32l072xx.s.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/arm-gcc/startup_stm32l072xx.s.obj: ../src/boards/B-L072Z-LRWAN1/cmsis/arm-gcc/startup_stm32l072xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building ASM object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/arm-gcc/startup_stm32l072xx.s.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/arm-gcc/startup_stm32l072xx.s.obj -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/cmsis/arm-gcc/startup_stm32l072xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building ASM object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/arm-gcc/startup_stm32l072xx.s.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/arm-gcc/startup_stm32l072xx.s.obj -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/cmsis/arm-gcc/startup_stm32l072xx.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/system_stm32l0xx.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/system_stm32l0xx.c.obj: ../src/boards/B-L072Z-LRWAN1/cmsis/system_stm32l0xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/system_stm32l0xx.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/system_stm32l0xx.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/cmsis/system_stm32l0xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/system_stm32l0xx.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/system_stm32l0xx.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/cmsis/system_stm32l0xx.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/system_stm32l0xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/system_stm32l0xx.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/cmsis/system_stm32l0xx.c > CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/system_stm32l0xx.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/cmsis/system_stm32l0xx.c > CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/system_stm32l0xx.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/system_stm32l0xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/system_stm32l0xx.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/cmsis/system_stm32l0xx.c -o CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/system_stm32l0xx.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1/cmsis/system_stm32l0xx.c -o CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/system_stm32l0xx.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj: ../src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.obj: ../src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.obj: ../src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj: ../src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj: ../src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.obj: ../src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.obj: ../src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj: ../src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj: ../src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj: ../src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.obj: ../src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.obj: ../src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj: ../src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj: ../src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.obj: ../src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.obj: ../src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.obj: ../src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj: ../src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.s
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/flags.make
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj: ../src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj   -c /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.i"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.i
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c > CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.i
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.s"
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.s
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c -o CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.s
 
 B-L072Z-LRWAN1: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/adc-board.c.obj
 B-L072Z-LRWAN1: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/board.c.obj
@@ -521,10 +521,10 @@ src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build: B-L072Z-LRWAN1
 .PHONY : src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/build
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/clean:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && $(CMAKE_COMMAND) -P CMakeFiles/B-L072Z-LRWAN1.dir/cmake_clean.cmake
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 && $(CMAKE_COMMAND) -P CMakeFiles/B-L072Z-LRWAN1.dir/cmake_clean.cmake
 .PHONY : src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/clean
 
 src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/depend:
-	cd /home/kupas/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kupas/TCC/LoRaMac-smarttotem /home/kupas/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1 /home/kupas/TCC/LoRaMac-smarttotem/build /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 /home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/boards/B-L072Z-LRWAN1 /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1 /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/depend
 

@@ -6,22 +6,22 @@ src/mac/CMakeFiles/mac.dir/LoRaMac.c.obj
  ../src/radio/radio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMac.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMac.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacAdr.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacClassB.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacCommands.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacConfirmQueue.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacCrypto.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacHeaderTypes.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacMessageTypes.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacParser.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacSerializer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacTest.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacTypes.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/Region.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/secure-element.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMac.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMac.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacAdr.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacClassB.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacCommands.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacConfirmQueue.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacCrypto.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacHeaderTypes.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacMessageTypes.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacParser.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacSerializer.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacTest.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacTypes.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/Region.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/secure-element.h
 src/mac/CMakeFiles/mac.dir/LoRaMacAdr.c.obj
  ../src/boards/utilities.h
  ../src/mac/LoRaMac.h
@@ -30,76 +30,76 @@ src/mac/CMakeFiles/mac.dir/LoRaMacAdr.c.obj
  ../src/radio/radio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacAdr.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacAdr.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/Region.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacAdr.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacAdr.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/Region.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
 src/mac/CMakeFiles/mac.dir/LoRaMacClassB.c.obj
  ../src/boards/utilities.h
  ../src/radio/radio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMac.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacClassB.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacClassB.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacClassBConfig.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacConfirmQueue.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacCrypto.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacHeaderTypes.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacMessageTypes.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacTypes.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/Region.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/secure-element.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMac.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacClassB.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacClassB.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacClassBConfig.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacConfirmQueue.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacCrypto.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacHeaderTypes.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacMessageTypes.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacTypes.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/Region.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/secure-element.h
 src/mac/CMakeFiles/mac.dir/LoRaMacCommands.c.obj
  ../src/boards/utilities.h
  ../src/mac/LoRaMacHeaderTypes.h
  ../src/radio/radio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMac.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacCommands.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacCommands.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacConfirmQueue.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacTypes.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/Region.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMac.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacCommands.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacCommands.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacConfirmQueue.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacTypes.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/Region.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
 src/mac/CMakeFiles/mac.dir/LoRaMacConfirmQueue.c.obj
  ../src/boards/utilities.h
  ../src/mac/LoRaMacHeaderTypes.h
  ../src/radio/radio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMac.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacConfirmQueue.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacConfirmQueue.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacTypes.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/Region.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMac.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacConfirmQueue.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacConfirmQueue.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacTypes.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/Region.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
 src/mac/CMakeFiles/mac.dir/LoRaMacCrypto.c.obj
  ../src/boards/utilities.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacCrypto.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacCrypto.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacHeaderTypes.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacMessageTypes.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacParser.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacSerializer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacTypes.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/secure-element.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacCrypto.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacCrypto.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacHeaderTypes.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacMessageTypes.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacParser.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacSerializer.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacTypes.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/secure-element.h
 src/mac/CMakeFiles/mac.dir/LoRaMacParser.c.obj
  ../src/boards/utilities.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacHeaderTypes.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacMessageTypes.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacParser.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacParser.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacHeaderTypes.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacMessageTypes.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacParser.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacParser.h
 src/mac/CMakeFiles/mac.dir/LoRaMacSerializer.c.obj
  ../src/boards/utilities.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacHeaderTypes.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacMessageTypes.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacSerializer.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/LoRaMacSerializer.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacHeaderTypes.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacMessageTypes.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacSerializer.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/LoRaMacSerializer.h
 src/mac/CMakeFiles/mac.dir/region/Region.c.obj
  ../src/boards/utilities.h
  ../src/mac/LoRaMac.h
@@ -110,17 +110,17 @@ src/mac/CMakeFiles/mac.dir/region/Region.c.obj
  ../src/radio/radio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/Region.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionAS923.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionAU915.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionCN470.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionCN779.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionEU433.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionEU868.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionIN865.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionKR920.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionRU864.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionUS915.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/Region.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionAS923.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionAU915.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionCN470.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionCN779.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionEU433.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionEU868.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionIN865.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionKR920.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionRU864.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionUS915.h
 src/mac/CMakeFiles/mac.dir/region/RegionAS923.c.obj
  ../src/boards/utilities.h
  ../src/mac/LoRaMac.h
@@ -130,9 +130,9 @@ src/mac/CMakeFiles/mac.dir/region/RegionAS923.c.obj
  ../src/radio/radio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionAS923.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionAS923.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionAS923.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionAS923.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
 src/mac/CMakeFiles/mac.dir/region/RegionAU915.c.obj
  ../src/boards/utilities.h
  ../src/mac/LoRaMac.h
@@ -142,10 +142,10 @@ src/mac/CMakeFiles/mac.dir/region/RegionAU915.c.obj
  ../src/radio/radio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionAU915.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionAU915.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionBaseUS.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionAU915.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionAU915.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionBaseUS.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
 src/mac/CMakeFiles/mac.dir/region/RegionBaseUS.c.obj
  ../src/boards/utilities.h
  ../src/mac/LoRaMac.h
@@ -156,8 +156,8 @@ src/mac/CMakeFiles/mac.dir/region/RegionBaseUS.c.obj
  ../src/radio/radio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionBaseUS.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionBaseUS.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionBaseUS.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionBaseUS.h
 src/mac/CMakeFiles/mac.dir/region/RegionCN470.c.obj
  ../src/boards/utilities.h
  ../src/mac/LoRaMac.h
@@ -167,10 +167,10 @@ src/mac/CMakeFiles/mac.dir/region/RegionCN470.c.obj
  ../src/radio/radio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionBaseUS.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionCN470.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionCN470.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionBaseUS.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionCN470.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionCN470.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
 src/mac/CMakeFiles/mac.dir/region/RegionCN779.c.obj
  ../src/boards/utilities.h
  ../src/mac/LoRaMac.h
@@ -180,9 +180,9 @@ src/mac/CMakeFiles/mac.dir/region/RegionCN779.c.obj
  ../src/radio/radio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionCN779.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionCN779.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionCN779.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionCN779.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
 src/mac/CMakeFiles/mac.dir/region/RegionCommon.c.obj
  ../src/boards/utilities.h
  ../src/mac/LoRaMac.h
@@ -192,8 +192,8 @@ src/mac/CMakeFiles/mac.dir/region/RegionCommon.c.obj
  ../src/radio/radio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
 src/mac/CMakeFiles/mac.dir/region/RegionEU433.c.obj
  ../src/boards/utilities.h
  ../src/mac/LoRaMac.h
@@ -203,9 +203,9 @@ src/mac/CMakeFiles/mac.dir/region/RegionEU433.c.obj
  ../src/radio/radio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionEU433.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionEU433.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionEU433.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionEU433.h
 src/mac/CMakeFiles/mac.dir/region/RegionEU868.c.obj
  ../src/boards/utilities.h
  ../src/mac/LoRaMac.h
@@ -215,9 +215,9 @@ src/mac/CMakeFiles/mac.dir/region/RegionEU868.c.obj
  ../src/radio/radio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionEU868.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionEU868.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionEU868.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionEU868.h
 src/mac/CMakeFiles/mac.dir/region/RegionIN865.c.obj
  ../src/boards/utilities.h
  ../src/mac/LoRaMac.h
@@ -227,9 +227,9 @@ src/mac/CMakeFiles/mac.dir/region/RegionIN865.c.obj
  ../src/radio/radio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionIN865.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionIN865.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionIN865.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionIN865.h
 src/mac/CMakeFiles/mac.dir/region/RegionKR920.c.obj
  ../src/boards/utilities.h
  ../src/mac/LoRaMac.h
@@ -239,9 +239,9 @@ src/mac/CMakeFiles/mac.dir/region/RegionKR920.c.obj
  ../src/radio/radio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionKR920.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionKR920.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionKR920.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionKR920.h
 src/mac/CMakeFiles/mac.dir/region/RegionRU864.c.obj
  ../src/boards/utilities.h
  ../src/mac/LoRaMac.h
@@ -251,9 +251,9 @@ src/mac/CMakeFiles/mac.dir/region/RegionRU864.c.obj
  ../src/radio/radio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionRU864.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionRU864.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionRU864.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionRU864.h
 src/mac/CMakeFiles/mac.dir/region/RegionUS915.c.obj
  ../src/boards/utilities.h
  ../src/mac/LoRaMac.h
@@ -263,7 +263,7 @@ src/mac/CMakeFiles/mac.dir/region/RegionUS915.c.obj
  ../src/radio/radio.h
  ../src/system/systime.h
  ../src/system/timer.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionBaseUS.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionUS915.c
- /home/kupas/TCC/LoRaMac-smarttotem/src/mac/region/RegionUS915.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionBaseUS.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionCommon.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionUS915.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/mac/region/RegionUS915.h

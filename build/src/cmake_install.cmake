@@ -1,4 +1,4 @@
-# Install script for directory: /home/kupas/TCC/LoRaMac-smarttotem/src
+# Install script for directory: /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1/cmake_install.cmake")
-  include("/home/kupas/TCC/LoRaMac-smarttotem/build/src/boards/cmake_install.cmake")
-  include("/home/kupas/TCC/LoRaMac-smarttotem/build/src/radio/cmake_install.cmake")
-  include("/home/kupas/TCC/LoRaMac-smarttotem/build/src/system/cmake_install.cmake")
-  include("/home/kupas/TCC/LoRaMac-smarttotem/build/src/mac/cmake_install.cmake")
-  include("/home/kupas/TCC/LoRaMac-smarttotem/build/src/peripherals/cmake_install.cmake")
-  include("/home/kupas/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac/cmake_install.cmake")
+  include("/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/B-L072Z-LRWAN1/cmake_install.cmake")
+  include("/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/boards/cmake_install.cmake")
+  include("/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/radio/cmake_install.cmake")
+  include("/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/system/cmake_install.cmake")
+  include("/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/mac/cmake_install.cmake")
+  include("/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/peripherals/cmake_install.cmake")
+  include("/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac/cmake_install.cmake")
 
 endif()
 
