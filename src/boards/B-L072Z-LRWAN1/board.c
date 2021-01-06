@@ -54,6 +54,7 @@ Gpio_t Led4;
  * MCU objects
  */
 Uart_t Uart2;
+I2c_t I2c1;
 
 /*!
  * Initializes the unused GPIO to a know status
@@ -414,6 +415,12 @@ void BoardLowPowerHandler( void )
 
     __enable_irq( );
 }
+
+void I2c_init( void )
+{
+    I2cInit( &I2c1, I2C_1, PB_8, PB_9 );
+    
+} 
 
 #if !defined ( __CC_ARM )
 

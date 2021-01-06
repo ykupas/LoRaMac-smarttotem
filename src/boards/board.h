@@ -118,6 +118,12 @@ uint8_t GetBoardPowerSource( void );
  */
 Version_t BoardGetVersion( void );
 
+
+void i2c_init( void );
+void i2c_write( );
+void i2c_read( );
+
+
 #ifdef __cplusplus
 }
 #endif

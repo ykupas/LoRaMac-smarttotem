@@ -8,20 +8,14 @@
 #define __APP_H__
 
 #include <stdio.h>
-#include "utilities.h"
 #include "board.h"
 #include "board-config.h"
+#include "rtc-board.h"
 #include "gpio.h"
-
-#include "Commissioning.h"
-#include "LmHandler.h"
-#include "LmhpCompliance.h"
-#include "CayenneLpp.h"
-#include "LmHandlerMsgDisplay.h"
+#include "i2c-driver.h"
 
 
-Gpio_t PushButton;
-
+static Gpio_t pushButton;
 static TimerEvent_t evtTimer;
 static TimerEvent_t debounceTimer;
 
@@ -36,6 +30,10 @@ void DebounceIntEvent( void* context );
 
 /* Timer Event Function */
 void OnTimerEvent( void* context );
+
+
+/* Delay (milisseconds) function using RTC */
+void delay( uint32_t ms );
 
 
 /* Application setup funciton */
