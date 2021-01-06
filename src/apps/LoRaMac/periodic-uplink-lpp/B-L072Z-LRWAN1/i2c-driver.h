@@ -20,6 +20,7 @@ void InitI2c( void );
 void WriteI2cSW_8bits(uint8_t addr, uint8_t reg, uint8_t data);
 uint8_t ReadI2cSW_8bits(uint8_t addr, uint8_t reg);
 uint16_t ReadI2cSW_16bits(uint8_t addr, uint8_t reg);
+uint16_t ReadI2cSW_24bits(uint8_t addr, uint8_t reg, uint8_t* buf);
 
 
 #endif

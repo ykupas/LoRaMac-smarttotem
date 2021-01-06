@@ -13,6 +13,7 @@
 #include "rtc-board.h"
 #include "gpio.h"
 #include "i2c-driver.h"
+#include "mlx90614.h"
 
 
 static Gpio_t pushButton;
@@ -30,6 +31,12 @@ void DebounceIntEvent( void* context );
 
 /* Timer Event Function */
 void OnTimerEvent( void* context );
+
+
+/* Float to String function */
+void floatToString( float num, char* str );
+/* Int to String function */
+char intToString( int num );
 
 
 /* Delay (milisseconds) function using RTC */
