@@ -41,6 +41,8 @@ char intToString( int num );
 
 /* Delay (milisseconds) function using RTC */
 void delay( uint32_t ms );
+/* Delay (useconds) function using RTC */
+void delayUs( uint32_t us );
 
 
 /* Application setup funciton */

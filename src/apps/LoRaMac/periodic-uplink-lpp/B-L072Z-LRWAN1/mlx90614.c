@@ -157,12 +157,11 @@ uint16_t MLX90614_ReadReg(uint8_t devAddr, uint8_t regAddr)
 	data = (in_buff[1] <<8 | in_buff[0]);
 
 	// CRC8 check on data received
-	if (crc != in_buff[2])
-	{
-		data = 0x0000;
-	}
+	// if (crc != in_buff[2])
+	// {
+	// 	data = 0x0000;
+	// }
 
-	delay(10);
 	return data;
 }
 
@@ -189,10 +188,20 @@ float MLX90614_ReadTemp(uint8_t devAddr, uint8_t regAddr)
 	uint16_t data;
 
 	// data = MLX90614_ReadReg(hi2c, devAddr, regAddr);
+	delay(50);
 	data = MLX90614_ReadReg(devAddr, regAddr);
-	temp = data*0.02 - 273.15;
+	delay(50);
 
-	return temp;
+	if(data == 0x0000)
+	{
+		temp = 0.0;
+		return temp;
+	}
+	else
+	{
+		temp = data*0.02 - 273.15;
+		return temp;
+	}
 }
 
 

@@ -9,10 +9,11 @@
 #include "i2c-lcd.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 
 // #define INT BTN_1
-#define INT_PIN PA_4
+#define INT_PIN PA_13
 // #define INT_EDGE IRQ_FALLING_EDGE
 #define INT_EDGE IRQ_RISING_EDGE
 // #define INT_STATE 0
@@ -125,6 +126,12 @@ void delay( uint32_t ms )
 }
 
 
+void delayUs( uint32_t us )
+{
+    RtcDelayUs( us );
+}
+
+
 void app_setup(void)
 {
     // LED4 timer init
@@ -148,19 +155,15 @@ void app(void)
 {
     app_setup();
 
-    // float tempSurf = MLX90614_ReadTemp(MLX90614_DEFAULT_SA, MLX90614_TOBJ1);
-    float tempSurf = 36.9;
-	delay(10);
+    float tempSurf = MLX90614_ReadTemp(MLX90614_DEFAULT_SA, MLX90614_TOBJ1);
 	// float tempAmb = MLX90614_ReadTemp(MLX90614_DEFAULT_SA, MLX90614_TAMB);
-    // delay(10);
-
+    // float temp = ceilf(tempSurf * 10) / 10;
+    float temp = ( (float)( (int)(tempSurf * 10) ) ) / 10; 
     char buf[5];
-    floatToString(tempSurf, buf);
-    // sprintf(buf, "%.1f", tempSurf);
+    floatToString(temp, buf);
 
-    delay(1);
     lcd_init();
-    delay(1);
+    delay(100);
     lcd_send_cmd (0x80|0x00);
     lcd_send_string("HELLO WORLD");
     lcd_send_cmd (0x80|0x40);
@@ -173,6 +176,7 @@ void app(void)
 
     while(1)
     {
-        ;
+        // GpioToggle( &Led1);
+        // delayUs(500000);
     }
 }

@@ -56,6 +56,7 @@
 
 #define COMMON_FACTOR                               3
 #define CONV_NUMER                                  ( MSEC_NUMBER >> COMMON_FACTOR )
+#define CONV_NUMERU                                 ( USEC_NUMBER >> COMMON_FACTOR )
 #define CONV_DENOM                                  ( 1 << ( N_PREDIV_S - COMMON_FACTOR ) )
 
 /*!
@@ -249,6 +250,17 @@ uint32_t RtcMs2Tick( uint32_t milliseconds )
 }
 
 /*!
+ * \brief converts time in us to time in ticks
+ *
+ * \param[IN] useconds Time in useconds
+ * \retval returns time in timer ticks
+ */
+uint32_t RtcUs2Tick( uint32_t useconds )
+{
+    return ( uint32_t )( ( ( ( uint64_t )useconds ) * CONV_DENOM ) / CONV_NUMERU );
+}
+
+/*!
  * \brief converts time in ticks to time in ms
  *
  * \param[IN] time in timer ticks
@@ -273,6 +285,25 @@ void RtcDelayMs( uint32_t delay )
     uint64_t refTicks = RtcGetTimerValue( );
 
     delayTicks = RtcMs2Tick( delay );
+
+    // Wait delay ms
+    while( ( ( RtcGetTimerValue( ) - refTicks ) ) < delayTicks )
+    {
+        __NOP( );
+    }
+}
+
+/*!
+ * \brief a delay of delay us by polling RTC
+ *
+ * \param[IN] delay in us
+ */
+void RtcDelayUs( uint32_t delay )
+{
+    uint64_t delayTicks = 0;
+    uint64_t refTicks = RtcGetTimerValue( );
+
+    delayTicks = RtcUs2Tick( delay );
 
     // Wait delay ms
     while( ( ( RtcGetTimerValue( ) - refTicks ) ) < delayTicks )

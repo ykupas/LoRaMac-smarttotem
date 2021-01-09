@@ -75,6 +75,14 @@ uint32_t RtcGetMinimumTimeout( void );
 uint32_t RtcMs2Tick( TimerTime_t milliseconds );
 
 /*!
+ * \brief converts time in us to time in ticks
+ *
+ * \param[IN] useconds Time in useconds
+ * \retval returns time in timer ticks
+ */
+uint32_t RtcUs2Tick( TimerTime_t useconds );
+
+/*!
  * \brief converts time in ticks to time in ms
  *
  * \param[IN] time in timer ticks
@@ -88,6 +96,13 @@ TimerTime_t RtcTick2Ms( uint32_t tick );
  * \param[IN] milliseconds Delay in ms
  */
 void RtcDelayMs( TimerTime_t milliseconds );
+
+/*!
+ * \brief Performs a delay of useconds by polling RTC
+ *
+ * \param[IN] useconds Delay in ms
+ */
+void RtcDelayUs( TimerTime_t milliseconds );
 
 /*!
  * \brief Calculates the wake up time between wake up and MCU start
