@@ -12,16 +12,7 @@
 #include <math.h>
 
 
-// #define INT BTN_1
-#define INT_PIN PA_13
-// #define INT_EDGE IRQ_FALLING_EDGE
-#define INT_EDGE IRQ_RISING_EDGE
-// #define INT_STATE 0
-#define INT_STATE 1
-
-
-extern Gpio_t Led1;
-extern Gpio_t Led4;
+extern Gpio_t Led3;
 
 
 void DebounceTimerEvent( void* context )
@@ -34,7 +25,7 @@ void DebounceTimerEvent( void* context )
     if( GpioRead(&pushButton) == INT_STATE ) 
     {
         // If interruption is still going, toggle LED
-        GpioToggle( &Led1);
+        GpioToggle( &Led3);
     }
 
     // Set the interruption again
@@ -48,15 +39,6 @@ void DebounceIntEvent( void* context )
     GpioRemoveInterrupt(&pushButton);
     // Start the debounce timer
     TimerStart( &debounceTimer );
-}
-
-
-void OnTimerEvent( void* context )
-{
-    // Stop, toggle Led and start again
-    TimerStop( &evtTimer );
-    GpioToggle( &Led4 );
-    TimerStart( &evtTimer );
 }
 
 
@@ -174,6 +156,40 @@ float mlxTask( void )
 }
 
 
+void ledTurn(char k)
+{
+    switch (k)
+    {
+    case 'r':
+        GpioWrite( &rPin, 0 );
+        GpioWrite( &gPin, 1 );
+        GpioWrite( &bPin, 1 );
+        break;
+
+    case 'g':
+        GpioWrite( &rPin, 1 );
+        GpioWrite( &gPin, 0 );
+        GpioWrite( &bPin, 1 );
+        break;
+    
+    case 'b':
+        GpioWrite( &rPin, 1 );
+        GpioWrite( &gPin, 1 );
+        GpioWrite( &bPin, 0 );
+        break;
+
+    case 'o':
+        GpioWrite( &rPin, 1 );
+        GpioWrite( &gPin, 1 );
+        GpioWrite( &bPin, 1 );
+        break;
+
+    default:
+        break;
+    }
+}
+
+
 void delay( uint32_t ms )
 {
     RtcDelayMs( ms );
@@ -188,11 +204,6 @@ void delayUs( uint32_t us )
 
 void app_setup(void)
 {
-    // LED4 timer init
-    TimerInit( &evtTimer, OnTimerEvent );
-    TimerSetValue( &evtTimer, 500 );
-    OnTimerEvent( NULL );
-
     // Debounce timer init
     TimerInit( &debounceTimer, DebounceTimerEvent );
     TimerSetValue( &debounceTimer, 1000 );
@@ -200,20 +211,32 @@ void app_setup(void)
     // Init I2C - I2C 1 - PB8 SCL - PB9 SDA 
     InitI2c();
 
-    // LCD Pin ON/OFF init
+    // GPIOs init
     GpioInit( &lcdPin, LCD_PIN, PIN_OUTPUT, PIN_PUSH_PULL, PIN_NO_PULL, 0 );
-    GpioWrite( &lcdPin, 1);
+    GpioWrite( &lcdPin, 0);
+    GpioInit( &alcPin, ALC_PIN, PIN_OUTPUT, PIN_PUSH_PULL, PIN_NO_PULL, 0 );
+    GpioWrite( &alcPin, 0);
+    GpioInit( &bzrPin, BZR_PIN, PIN_OUTPUT, PIN_PUSH_PULL, PIN_NO_PULL, 0 );
+    GpioWrite( &bzrPin, 0);
+    GpioInit( &rPin, R_PIN, PIN_OUTPUT, PIN_PUSH_PULL, PIN_NO_PULL, 0 );
+    GpioInit( &gPin, G_PIN, PIN_OUTPUT, PIN_PUSH_PULL, PIN_NO_PULL, 0 );
+    GpioInit( &bPin, B_PIN, PIN_OUTPUT, PIN_PUSH_PULL, PIN_NO_PULL, 0 );
+    ledTurn('o');
+    GpioInit( &intPin, INT_PIN, PIN_INPUT, PIN_PUSH_PULL, PIN_NO_PULL, 1 );
 
     // LCD init
+    GpioWrite( &lcdPin, 1);
     delay(1);
     lcd_init();
     delay(50);
     lcd_clear();
     delay(50);
 
-    // Push button init 
-    GpioInit( &pushButton, INT_PIN, PIN_INPUT, PIN_OPEN_DRAIN, PIN_NO_PULL, 1 );
-    GpioSetInterrupt( &pushButton, INT_EDGE, IRQ_MEDIUM_PRIORITY, DebounceIntEvent);
+    // Interruption set-up init 
+    // GpioInit( &pushButton, INT_PIN, PIN_INPUT, PIN_OPEN_DRAIN, PIN_NO_PULL, 1 );
+    // GpioSetInterrupt( &pushButton, INT_EDGE, IRQ_MEDIUM_PRIORITY, DebounceIntEvent);
+    GpioSetInterrupt( &intPin, INT_EDGE, IRQ_MEDIUM_PRIORITY, DebounceIntEvent);
+    
 }
 
 void app(void)
@@ -221,14 +244,26 @@ void app(void)
     // Application setup
     app_setup();
 
-    // Get MLX temp
-    float temp = mlxTask();
     // Print MLX results on LCD
-    lcdTask( temp );
+    lcdTask( mlxTask() );
 
     // Turn Off LCD
-    delay(5000);
-    GpioWrite( &lcdPin, 0);
+    delay(2000);
+    GpioWrite( &lcdPin, 0 );
+
+    GpioWrite( &bzrPin, 1 );
+    delay(500);
+    GpioWrite( &bzrPin, 0 );
+    ledTurn('r');
+    delay(500);
+    ledTurn('g');
+    delay(500);
+    ledTurn('b');
+    delay(500);
+    ledTurn('o');
+    GpioWrite( &alcPin, 1);
+    delay(3000);
+    GpioWrite( &alcPin, 0);
 
     while(1)
     {
