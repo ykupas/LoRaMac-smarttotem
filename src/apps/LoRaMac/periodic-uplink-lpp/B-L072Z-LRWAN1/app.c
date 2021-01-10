@@ -120,6 +120,60 @@ char intToString( int num )
 }
 
 
+void lcdTask( float temp )
+{
+    if(temp <= MIN_TEMP)
+    {
+        // Line 0 
+        lcd_send_cmd (0x80|0x00);
+        lcd_send_string("Temp muito baixa");
+        // Line 1
+        lcd_send_cmd (0x80|0x40);
+        lcd_send_string("Repita o processo");
+        // Line 2 
+        lcd_send_cmd (0x80|0x14);
+        lcd_send_string("com o punho mais");
+        // Line 3
+        lcd_send_cmd (0x80|0x54);
+        lcd_send_string("proximo do indicado");
+    }
+    else
+    {
+        // Passing float to string
+        char buf[4];
+        floatToString(temp, buf);
+        // Line 0 
+        lcd_send_cmd (0x80|0x00);
+        lcd_send_string("Temperatura");
+        // Line 1
+        lcd_send_cmd (0x80|0x40);
+        lcd_send_float(buf);
+        lcd_send_string(" C");
+        // Line 2 
+        lcd_send_cmd (0x80|0x14);
+        lcd_send_string("Numero de pessoas");
+        // Line 3
+        lcd_send_cmd (0x80|0x54);
+        lcd_send_string("300");
+    }
+}
+
+
+float mlxTask( void )
+{
+    MLX90614_WakeUpSleepMode();
+    delay(50);
+    float tempSurf = MLX90614_ReadTemp(MLX90614_DEFAULT_SA, MLX90614_TOBJ1);
+    delay(1);
+    tempSurf += MLX90614_ReadTemp(MLX90614_DEFAULT_SA, MLX90614_TOBJ1);
+    tempSurf = tempSurf/2.0;
+    MLX90614_EnterSleepMode(MLX90614_DEFAULT_SA);
+    // float temp = ceilf(tempSurf * 10) / 10;
+    float temp = ( (float)( (int)(tempSurf * 10) ) ) / 10; 
+    return temp;
+}
+
+
 void delay( uint32_t ms )
 {
     RtcDelayMs( ms );
@@ -146,6 +200,17 @@ void app_setup(void)
     // Init I2C - I2C 1 - PB8 SCL - PB9 SDA 
     InitI2c();
 
+    // LCD Pin ON/OFF init
+    GpioInit( &lcdPin, LCD_PIN, PIN_OUTPUT, PIN_PUSH_PULL, PIN_NO_PULL, 0 );
+    GpioWrite( &lcdPin, 1);
+
+    // LCD init
+    delay(1);
+    lcd_init();
+    delay(50);
+    lcd_clear();
+    delay(50);
+
     // Push button init 
     GpioInit( &pushButton, INT_PIN, PIN_INPUT, PIN_OPEN_DRAIN, PIN_NO_PULL, 1 );
     GpioSetInterrupt( &pushButton, INT_EDGE, IRQ_MEDIUM_PRIORITY, DebounceIntEvent);
@@ -153,26 +218,17 @@ void app_setup(void)
 
 void app(void)
 {
+    // Application setup
     app_setup();
 
-    float tempSurf = MLX90614_ReadTemp(MLX90614_DEFAULT_SA, MLX90614_TOBJ1);
-	// float tempAmb = MLX90614_ReadTemp(MLX90614_DEFAULT_SA, MLX90614_TAMB);
-    // float temp = ceilf(tempSurf * 10) / 10;
-    float temp = ( (float)( (int)(tempSurf * 10) ) ) / 10; 
-    char buf[5];
-    floatToString(temp, buf);
+    // Get MLX temp
+    float temp = mlxTask();
+    // Print MLX results on LCD
+    lcdTask( temp );
 
-    lcd_init();
-    delay(100);
-    lcd_send_cmd (0x80|0x00);
-    lcd_send_string("HELLO WORLD");
-    lcd_send_cmd (0x80|0x40);
-    lcd_send_string("LCD 20x4 DEMO");
-    lcd_send_cmd (0x80|0x14);
-    lcd_send_string("BY ControllersTech");
-    lcd_send_cmd (0x80|0x54);
-    lcd_send_string(buf);
-    lcd_send_string(" C");
+    // Turn Off LCD
+    delay(5000);
+    GpioWrite( &lcdPin, 0);
 
     while(1)
     {

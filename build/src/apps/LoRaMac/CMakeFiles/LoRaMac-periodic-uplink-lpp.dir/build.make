@@ -187,9 +187,35 @@ src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.s"
 	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/app.c -o CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.s
 
+src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.obj: src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/flags.make
+src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.obj: ../src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c
+
+src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.i"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c > CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.i
+
+src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.s"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c -o CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.s
+
+src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.obj: src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/flags.make
+src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.obj: ../src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c
+
+src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.i"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c > CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.i
+
+src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.s"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c -o CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.s
+
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj: src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/flags.make
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj: ../src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj"
 	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c
 
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.i: cmake_force
@@ -199,6 +225,19 @@ src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.s"
 	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c -o CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.s
+
+src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.obj: src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/flags.make
+src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.obj: ../src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.obj"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.obj   -c /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c
+
+src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.i"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c > CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.i
+
+src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.s"
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c -o CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.s
 
 # Object files for target LoRaMac-periodic-uplink-lpp
 LoRaMac__periodic__uplink__lpp_OBJECTS = \
@@ -212,7 +251,10 @@ LoRaMac__periodic__uplink__lpp_OBJECTS = \
 "CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpFragmentation.c.obj" \
 "CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpRemoteMcastSetup.c.obj" \
 "CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.obj" \
-"CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj"
+"CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.obj" \
+"CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.obj" \
+"CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj" \
+"CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.obj"
 
 # External object files for target LoRaMac-periodic-uplink-lpp
 LoRaMac__periodic__uplink__lpp_EXTERNAL_OBJECTS = \
@@ -304,7 +346,10 @@ src/apps/LoRaMac/LoRaMac-periodic-uplink-lpp: src/apps/LoRaMac/CMakeFiles/LoRaMa
 src/apps/LoRaMac/LoRaMac-periodic-uplink-lpp: src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpFragmentation.c.obj
 src/apps/LoRaMac/LoRaMac-periodic-uplink-lpp: src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpRemoteMcastSetup.c.obj
 src/apps/LoRaMac/LoRaMac-periodic-uplink-lpp: src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.obj
+src/apps/LoRaMac/LoRaMac-periodic-uplink-lpp: src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.obj
+src/apps/LoRaMac/LoRaMac-periodic-uplink-lpp: src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.obj
 src/apps/LoRaMac/LoRaMac-periodic-uplink-lpp: src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj
+src/apps/LoRaMac/LoRaMac-periodic-uplink-lpp: src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.obj
 src/apps/LoRaMac/LoRaMac-periodic-uplink-lpp: src/mac/CMakeFiles/mac.dir/LoRaMac.c.obj
 src/apps/LoRaMac/LoRaMac-periodic-uplink-lpp: src/mac/CMakeFiles/mac.dir/LoRaMacAdr.c.obj
 src/apps/LoRaMac/LoRaMac-periodic-uplink-lpp: src/mac/CMakeFiles/mac.dir/LoRaMacClassB.c.obj
@@ -384,7 +429,7 @@ src/apps/LoRaMac/LoRaMac-periodic-uplink-lpp: src/boards/B-L072Z-LRWAN1/CMakeFil
 src/apps/LoRaMac/LoRaMac-periodic-uplink-lpp: src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir/__/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
 src/apps/LoRaMac/LoRaMac-periodic-uplink-lpp: src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make
 src/apps/LoRaMac/LoRaMac-periodic-uplink-lpp: src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable LoRaMac-periodic-uplink-lpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking C executable LoRaMac-periodic-uplink-lpp"
 	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac && /usr/bin/arm-none-eabi-size LoRaMac-periodic-uplink-lpp
 

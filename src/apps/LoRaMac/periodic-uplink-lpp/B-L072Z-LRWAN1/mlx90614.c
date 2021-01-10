@@ -12,7 +12,7 @@
 #include "mlx90614.h"
 
 
-char temp_buff[128] = {};
+// char temp_buff[128] = {};
 
 
 static const uint8_t crc_table[] = {
@@ -157,10 +157,10 @@ uint16_t MLX90614_ReadReg(uint8_t devAddr, uint8_t regAddr)
 	data = (in_buff[1] <<8 | in_buff[0]);
 
 	// CRC8 check on data received
-	// if (crc != in_buff[2])
-	// {
-	// 	data = 0x0000;
-	// }
+	if (crc != in_buff[2])
+	{
+		// data = 0x0000;
+	}
 
 	return data;
 }

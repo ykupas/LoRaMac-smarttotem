@@ -16,6 +16,14 @@
 #include "mlx90614.h"
 
 
+// Pinout DEFINES
+#define LCD_PIN PA_10 
+
+// Limits DEFINES
+#define MIN_TEMP    33.0
+
+
+static Gpio_t lcdPin;
 static Gpio_t pushButton;
 static TimerEvent_t evtTimer;
 static TimerEvent_t debounceTimer;
@@ -37,6 +45,12 @@ void OnTimerEvent( void* context );
 void floatToString( float num, char* str );
 /* Int to String function */
 char intToString( int num );
+/* LCD task function */
+void lcdTask( float temp );
+
+
+/* MLX task Function */
+float mlxTask( void );
 
 
 /* Delay (milisseconds) function using RTC */

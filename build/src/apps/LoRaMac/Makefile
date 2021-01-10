@@ -425,6 +425,60 @@ periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.s:
 	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.s
 .PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.s
 
+periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.obj: periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.obj
+
+.PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.obj
+
+# target to build an object file
+periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.obj:
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.obj
+.PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.obj
+
+periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.i: periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.i
+
+.PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.i
+
+# target to preprocess a source file
+periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.i:
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.i
+.PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.i
+
+periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.s: periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.s
+
+.PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.s
+
+# target to generate assembly for a file
+periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.s:
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.s
+.PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.s
+
+periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.obj: periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.obj
+
+.PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.obj
+
+# target to build an object file
+periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.obj:
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.obj
+.PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.obj
+
+periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.i: periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.i
+
+.PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.i
+
+# target to preprocess a source file
+periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.i:
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.i
+.PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.i
+
+periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.s: periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.s
+
+.PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.s
+
+# target to generate assembly for a file
+periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.s:
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.s
+.PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.s
+
 periodic-uplink-lpp/B-L072Z-LRWAN1/main.obj: periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj
 
 .PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/main.obj
@@ -451,6 +505,33 @@ periodic-uplink-lpp/B-L072Z-LRWAN1/main.s: periodic-uplink-lpp/B-L072Z-LRWAN1/ma
 periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.s:
 	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.s
 .PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.s
+
+periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.obj: periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.obj
+
+.PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.obj
+
+# target to build an object file
+periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.obj:
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.obj
+.PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.obj
+
+periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.i: periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.i
+
+.PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.i
+
+# target to preprocess a source file
+periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.i:
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.i
+.PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.i
+
+periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.s: periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.s
+
+.PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.s
+
+# target to generate assembly for a file
+periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.s:
+	cd /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build && $(MAKE) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.s
+.PHONY : periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.s
 
 # Help Target
 help:
@@ -493,9 +574,18 @@ help:
 	@echo "... periodic-uplink-lpp/B-L072Z-LRWAN1/app.obj"
 	@echo "... periodic-uplink-lpp/B-L072Z-LRWAN1/app.i"
 	@echo "... periodic-uplink-lpp/B-L072Z-LRWAN1/app.s"
+	@echo "... periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.obj"
+	@echo "... periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.i"
+	@echo "... periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.s"
+	@echo "... periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.obj"
+	@echo "... periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.i"
+	@echo "... periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.s"
 	@echo "... periodic-uplink-lpp/B-L072Z-LRWAN1/main.obj"
 	@echo "... periodic-uplink-lpp/B-L072Z-LRWAN1/main.i"
 	@echo "... periodic-uplink-lpp/B-L072Z-LRWAN1/main.s"
+	@echo "... periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.obj"
+	@echo "... periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.i"
+	@echo "... periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.s"
 .PHONY : help
 
 

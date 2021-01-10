@@ -127,30 +127,39 @@ src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/NvmCtxMgmt.c.
  /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/NvmCtxMgmt.c
  /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/NvmCtxMgmt.h
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.obj
- ../src/apps/LoRaMac/common/CayenneLpp.h
- ../src/apps/LoRaMac/common/Commissioning.h
- ../src/apps/LoRaMac/common/LmHandler/LmHandler.h
- ../src/apps/LoRaMac/common/LmHandler/LmHandlerTypes.h
- ../src/apps/LoRaMac/common/LmHandler/packages/LmhPackage.h
- ../src/apps/LoRaMac/common/LmHandler/packages/LmhpCompliance.h
- ../src/apps/LoRaMac/common/LmHandlerMsgDisplay.h
  ../src/boards/B-L072Z-LRWAN1/board-config.h
  ../src/boards/board.h
  ../src/boards/pinName-board.h
  ../src/boards/pinName-ioe.h
+ ../src/boards/rtc-board.h
  ../src/boards/utilities.h
- ../src/mac/LoRaMac.h
- ../src/mac/LoRaMacHeaderTypes.h
- ../src/mac/LoRaMacTypes.h
- ../src/mac/region/Region.h
- ../src/mac/region/RegionCommon.h
- ../src/peripherals/soft-se/se-identity.h
- ../src/radio/radio.h
  ../src/system/gpio.h
- ../src/system/systime.h
  ../src/system/timer.h
  /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/app.c
  /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/app.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.h
+src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.obj
+ ../src/boards/pinName-board.h
+ ../src/boards/pinName-ioe.h
+ ../src/system/gpio.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.h
+src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.obj
+ ../src/boards/B-L072Z-LRWAN1/board-config.h
+ ../src/boards/board.h
+ ../src/boards/pinName-board.h
+ ../src/boards/pinName-ioe.h
+ ../src/boards/rtc-board.h
+ ../src/boards/utilities.h
+ ../src/system/gpio.h
+ ../src/system/timer.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/app.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.h
 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj
  ../src/apps/LoRaMac/common/CayenneLpp.h
  ../src/apps/LoRaMac/common/Commissioning.h
@@ -163,6 +172,7 @@ src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/
  ../src/boards/board.h
  ../src/boards/pinName-board.h
  ../src/boards/pinName-ioe.h
+ ../src/boards/rtc-board.h
  ../src/boards/utilities.h
  ../src/mac/LoRaMac.h
  ../src/mac/LoRaMacHeaderTypes.h
@@ -175,4 +185,19 @@ src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/
  ../src/system/systime.h
  ../src/system/timer.h
  /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/app.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.h
  /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.h
+src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.obj
+ ../src/boards/B-L072Z-LRWAN1/board-config.h
+ ../src/boards/board.h
+ ../src/boards/pinName-board.h
+ ../src/boards/pinName-ioe.h
+ ../src/boards/rtc-board.h
+ ../src/boards/utilities.h
+ ../src/system/gpio.h
+ ../src/system/timer.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/app.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.h
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c
+ /home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.h

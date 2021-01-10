@@ -20,6 +20,8 @@ void lcd_send_data (char data);  // send data to the lcd
 
 void lcd_send_string (char *str);  // send string to the lcd
 
+void lcd_send_float (char *str);  // send float to the lcd
+
 void lcd_clear (void);  
 
 

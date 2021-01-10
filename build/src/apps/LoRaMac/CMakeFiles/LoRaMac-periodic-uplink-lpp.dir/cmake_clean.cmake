@@ -9,7 +9,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpFragmentation.c.obj"
   "CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpRemoteMcastSetup.c.obj"
   "CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.obj"
+  "CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.obj"
+  "CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.obj"
   "CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj"
+  "CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.obj"
   "LoRaMac-periodic-uplink-lpp.pdb"
   "LoRaMac-periodic-uplink-lpp"
 )

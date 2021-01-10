@@ -14,7 +14,10 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/LmHandlerMsgDisplay.c" "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandlerMsgDisplay.c.obj"
   "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/common/NvmCtxMgmt.c" "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/NvmCtxMgmt.c.obj"
   "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/app.c" "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/app.c.obj"
+  "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c" "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-driver.c.obj"
+  "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c" "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/i2c-lcd.c.obj"
   "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c" "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/main.c.obj"
+  "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/src/apps/LoRaMac/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c" "/home/kupas-debian/Documents/TCC/LoRaMac-smarttotem/build/src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/B-L072Z-LRWAN1/mlx90614.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
