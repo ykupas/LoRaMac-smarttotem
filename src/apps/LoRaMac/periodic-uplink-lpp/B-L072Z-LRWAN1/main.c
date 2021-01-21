@@ -254,6 +254,8 @@ int main( void )
     BoardInitMcu( );
     BoardInitPeriph( );
 
+    app_setup();
+
     app();
 
     TimerInit( &Led1Timer, OnLed1TimerEvent );

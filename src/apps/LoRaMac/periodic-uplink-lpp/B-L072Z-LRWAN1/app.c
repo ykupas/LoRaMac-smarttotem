@@ -12,33 +12,56 @@
 #include <math.h>
 
 
-extern Gpio_t Led3;
-
-
-void DebounceTimerEvent( void* context )
+void ButtonDebounceTimerEvent( void* context )
 {
     // Stopping timer
-    TimerStop( &debounceTimer );
+    TimerStop( &buttonDebounceTimer );
 
     // Re-setup GPIO that it can be read
-    GpioInit( &pushButton, INT_PIN, PIN_INPUT, PIN_OPEN_DRAIN, PIN_NO_PULL, 1 );
-    if( GpioRead(&pushButton) == INT_STATE ) 
+    GpioInit( &pushButton, PB_2, PIN_INPUT, PIN_OPEN_DRAIN, PIN_NO_PULL, 1 );
+    if( GpioRead(&pushButton) == LOW ) 
     {
-        // If interruption is still going, toggle LED
-        GpioToggle( &Led3);
+        peopleCounter = 0;
     }
 
     // Set the interruption again
-    GpioSetInterrupt( &pushButton, INT_EDGE, IRQ_MEDIUM_PRIORITY, DebounceIntEvent);
+    GpioSetInterrupt( &pushButton, IRQ_FALLING_EDGE, IRQ_MEDIUM_PRIORITY, ButtonInterruptEvent);
 }
 
 
-void DebounceIntEvent( void* context )
+void IrDebounceTimerEvent( void* context )
+{
+    // Stopping timer
+    TimerStop( &irDebounceTimer );
+
+    // Re-setup GPIO that it can be read
+    GpioInit( &irPin, INT_PIN, PIN_INPUT, PIN_OPEN_DRAIN, PIN_NO_PULL, 1 );
+    if( GpioRead(&irPin) == HIGH ) 
+    {
+        appFlag = 1;
+        ledTurn('b');
+    }
+
+    // Set the interruption again
+    GpioSetInterrupt( &irPin, IRQ_RISING_EDGE, IRQ_HIGH_PRIORITY, IrInterruptEvent);
+}
+
+
+void ButtonInterruptEvent( void* context )
 {
     // DeInit the GPIO 
     GpioRemoveInterrupt(&pushButton);
     // Start the debounce timer
-    TimerStart( &debounceTimer );
+    TimerStart( &buttonDebounceTimer );
+}
+
+
+void IrInterruptEvent( void* context )
+{
+    // DeInit the GPIO 
+    GpioRemoveInterrupt(&irPin);
+    // Start the debounce timer
+    TimerStart( &irDebounceTimer );
 }
 
 
@@ -102,8 +125,45 @@ char intToString( int num )
 }
 
 
-void lcdTask( float temp )
+void counterToString( int counter, char* str )
 {
+    if( counter < 10 )
+    {
+        int digito_unidade = counter % 10;
+        str[0] = '0';
+        str[1] = '0';
+        str[2] = intToString(digito_unidade);
+    }
+    else if( counter >= 10 && counter < 100 )
+    {
+        int digito_dezena = counter % 100 / 10;
+        int digito_unidade = counter % 10;
+        str[0] = '0';
+        str[1] = intToString(digito_dezena);
+        str[2] = intToString(digito_unidade);
+    }
+    else if(counter >= 100 && counter < 1000 )
+    {
+        int digito_centena = counter / 100;
+        int digito_dezena = counter % 100 / 10;
+        int digito_unidade = counter % 10;
+        str[0] = intToString(digito_centena);
+        str[1] = intToString(digito_dezena);
+        str[2] = intToString(digito_unidade);
+    }
+    else
+    {
+        str[0] = '9';
+        str[1] = '9';
+        str[2] = '9';
+    }
+}
+
+
+void lcdTask( float temp, int count )
+{
+    lcdInit();
+
     if(temp <= MIN_TEMP)
     {
         // Line 0 
@@ -122,22 +182,34 @@ void lcdTask( float temp )
     else
     {
         // Passing float to string
-        char buf[4];
-        floatToString(temp, buf);
+        char buf1[4];
+        char buf2[4];
+        floatToString(temp, buf1);
+        counterToString(count, buf2);
         // Line 0 
         lcd_send_cmd (0x80|0x00);
         lcd_send_string("Temperatura");
         // Line 1
         lcd_send_cmd (0x80|0x40);
-        lcd_send_float(buf);
+        lcd_send_float(buf1);
         lcd_send_string(" C");
         // Line 2 
         lcd_send_cmd (0x80|0x14);
         lcd_send_string("Numero de pessoas");
         // Line 3
         lcd_send_cmd (0x80|0x54);
-        lcd_send_string("300");
+        lcd_send_string(buf2);
+        lcd_send_string(" pessoas");
     }
+}
+
+
+void lcdInit( void )
+{
+    lcd_init();
+    delay(50);
+    lcd_clear();
+    delay(50);
 }
 
 
@@ -204,9 +276,13 @@ void delayUs( uint32_t us )
 
 void app_setup(void)
 {
-    // Debounce timer init
-    TimerInit( &debounceTimer, DebounceTimerEvent );
-    TimerSetValue( &debounceTimer, 1000 );
+    // Button Debounce timer init
+    TimerInit( &buttonDebounceTimer, ButtonDebounceTimerEvent );
+    TimerSetValue( &buttonDebounceTimer, 100 );
+
+    // Infra-red Debounce timer init
+    TimerInit( &irDebounceTimer, IrDebounceTimerEvent );
+    TimerSetValue( &irDebounceTimer, 1000 );
 
     // Init I2C - I2C 1 - PB8 SCL - PB9 SDA 
     InitI2c();
@@ -222,52 +298,50 @@ void app_setup(void)
     GpioInit( &gPin, G_PIN, PIN_OUTPUT, PIN_PUSH_PULL, PIN_NO_PULL, 0 );
     GpioInit( &bPin, B_PIN, PIN_OUTPUT, PIN_PUSH_PULL, PIN_NO_PULL, 0 );
     ledTurn('o');
-    GpioInit( &intPin, INT_PIN, PIN_INPUT, PIN_PUSH_PULL, PIN_NO_PULL, 1 );
-
-    // LCD init
-    GpioWrite( &lcdPin, 1);
-    delay(1);
-    lcd_init();
-    delay(50);
-    lcd_clear();
-    delay(50);
+    GpioInit( &irPin, INT_PIN, PIN_INPUT, PIN_PUSH_PULL, PIN_NO_PULL, 1 );
+    GpioInit( &pushButton, PB_2, PIN_INPUT, PIN_OPEN_DRAIN, PIN_NO_PULL, 1 );
 
     // Interruption set-up init 
-    // GpioInit( &pushButton, INT_PIN, PIN_INPUT, PIN_OPEN_DRAIN, PIN_NO_PULL, 1 );
-    // GpioSetInterrupt( &pushButton, INT_EDGE, IRQ_MEDIUM_PRIORITY, DebounceIntEvent);
-    GpioSetInterrupt( &intPin, INT_EDGE, IRQ_MEDIUM_PRIORITY, DebounceIntEvent);
-    
+    GpioSetInterrupt( &irPin, IRQ_RISING_EDGE, IRQ_HIGH_PRIORITY, IrInterruptEvent);
+    GpioSetInterrupt( &pushButton, IRQ_FALLING_EDGE, IRQ_MEDIUM_PRIORITY, ButtonInterruptEvent);
+
+    peopleCounter = 0;
+    appFlag = 0;
 }
 
 void app(void)
 {
-    // Application setup
-    app_setup();
+    // // Print MLX results on LCD
+    // lcdTask( mlxTask(), peopleCounter );
 
-    // Print MLX results on LCD
-    lcdTask( mlxTask() );
+    // // Turn Off LCD
+    // delay(2000);
+    // GpioWrite( &lcdPin, 0 );
 
-    // Turn Off LCD
-    delay(2000);
-    GpioWrite( &lcdPin, 0 );
-
-    GpioWrite( &bzrPin, 1 );
-    delay(500);
-    GpioWrite( &bzrPin, 0 );
-    ledTurn('r');
-    delay(500);
-    ledTurn('g');
-    delay(500);
-    ledTurn('b');
-    delay(500);
-    ledTurn('o');
-    GpioWrite( &alcPin, 1);
-    delay(3000);
-    GpioWrite( &alcPin, 0);
+    // GpioWrite( &bzrPin, 1 );
+    // delay(500);
+    // GpioWrite( &bzrPin, 0 );
+    // ledTurn('r');
+    // delay(500);
+    // ledTurn('g');
+    // delay(500);
+    // ledTurn('b');
+    // delay(500);
+    // ledTurn('o');
+    // GpioWrite( &alcPin, 1);
+    // delay(3000);
+    // GpioWrite( &alcPin, 0);
 
     while(1)
     {
-        // GpioToggle( &Led1);
-        // delayUs(500000);
+        while(appFlag == 0);
+        peopleCounter++;
+        GpioWrite( &lcdPin, 1 );
+        delay(10);
+        lcdTask( mlxTask(), peopleCounter );
+        delay(2000);
+        GpioWrite( &lcdPin, 0 );
+        appFlag = 0;
+        ledTurn('o');
     }
 }
