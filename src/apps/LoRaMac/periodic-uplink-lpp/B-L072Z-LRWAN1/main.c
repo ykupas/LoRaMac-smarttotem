@@ -246,6 +246,12 @@ extern Gpio_t Led2; // Blinks every 5 seconds when beacon is acquired
 extern Gpio_t Led3; // Rx
 extern Gpio_t Led4; // App
 
+
+// App variables
+static float sumTemp = 0.0;
+static float lastTemp = 0.0;
+static int peopleCount = 0;
+
 /*!
  * Main application entry point.
  */
@@ -290,9 +296,9 @@ int main( void )
     // initialized and activated.
     LmHandlerPackageRegister( PACKAGE_ID_COMPLIANCE, &LmhpComplianceParams );
 
-    // LmHandlerJoin( );
+    LmHandlerJoin( );
 
-    // StartTxProcess( LORAMAC_HANDLER_TX_ON_TIMER );
+    StartTxProcess( LORAMAC_HANDLER_TX_ON_TIMER );
 
     while( 1 )
     {
@@ -306,7 +312,15 @@ int main( void )
         if(appFlag == 1)
         {
             float t = app();
-            int c = getPeopleCounter();
+            if(t > MIN_TEMP)
+            {
+                lastTemp = t;
+                sumTemp += lastTemp;
+                if(lastTemp > MAX_TEMP)
+                {
+                    IsTxFramePending = 1;
+                }
+            }
         }
         if( IsMacProcessPending == 1 )
         {
@@ -451,12 +465,36 @@ static void PrepareTxFrame( void )
 
     AppData.Port = LORAWAN_APP_PORT;
 
-    CayenneLppReset( );
-    CayenneLppAddDigitalInput( channel++, AppLedStateOn );
-    CayenneLppAddAnalogInput( channel++, BoardGetBatteryLevel( ) * 100 / 254 );
+    // CayenneLppReset( );
+    // CayenneLppAddDigitalInput( channel++, AppLedStateOn );
+    // CayenneLppAddAnalogInput( channel++, BoardGetBatteryLevel( ) * 100 / 254 );
 
-    CayenneLppCopy( AppData.Buffer );
-    AppData.BufferSize = CayenneLppGetSize( );
+    // CayenneLppCopy( AppData.Buffer );
+    // AppData.BufferSize = CayenneLppGetSize( );
+
+    // TODO:
+    int count = getPeopleCounter();
+    float meanTemp = sumTemp/( (float) count);
+
+    int aux1 = (int)lastTemp;
+    int aux2 = (int)meanTemp;
+
+    AppData.Buffer[0] = (uint8_t)(aux1 <<  0);
+    AppData.Buffer[1] = (uint8_t)(aux1 <<  8);
+    AppData.Buffer[2] = (uint8_t)(aux1 << 16);
+    AppData.Buffer[3] = (uint8_t)(aux1 << 24);
+    
+    AppData.Buffer[4] = (uint8_t)(aux2 <<  0);
+    AppData.Buffer[5] = (uint8_t)(aux2 <<  8);
+    AppData.Buffer[6] = (uint8_t)(aux2 << 16);
+    AppData.Buffer[7] = (uint8_t)(aux2 << 24);
+    
+    AppData.Buffer[8] =  (uint8_t)(count <<  0);
+    AppData.Buffer[9] =  (uint8_t)(count <<  8);
+    AppData.Buffer[10] = (uint8_t)(count << 16);
+    AppData.Buffer[11] = (uint8_t)(count << 24);
+
+    AppData.BufferSize = 12;
 
     if( LmHandlerSend( &AppData, LORAWAN_DEFAULT_CONFIRMED_MSG_STATE ) == LORAMAC_HANDLER_SUCCESS )
     {

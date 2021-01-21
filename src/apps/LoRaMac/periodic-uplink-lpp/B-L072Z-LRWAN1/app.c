@@ -39,7 +39,6 @@ void IrDebounceTimerEvent( void* context )
     if( GpioRead(&irPin) == HIGH ) 
     {
         appFlag = 1;
-        ledTurn('b');
     }
 
     // Set the interruption again
@@ -60,6 +59,8 @@ void IrInterruptEvent( void* context )
 {
     // DeInit the GPIO 
     GpioRemoveInterrupt(&irPin);
+    // Turn Led Blue on
+    ledTurn('b');
     // Start the debounce timer
     TimerStart( &irDebounceTimer );
 }
@@ -319,8 +320,14 @@ float app( void )
     GpioWrite( &lcdPin, 1 );
     delay(10);
 
+    GpioRemoveInterrupt(&gPin);
+    GpioInit( &gPin, G_PIN, PIN_OUTPUT, PIN_PUSH_PULL, PIN_NO_PULL, 1 );
+
     float temperature = mlxTask();
-    peopleCounter++;
+    if(temperature <= MIN_TEMP)
+    {
+        peopleCounter++;
+    }
 
     if( temperature >= MAX_TEMP )
     {
