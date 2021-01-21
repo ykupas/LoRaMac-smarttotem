@@ -67,8 +67,8 @@ void IrInterruptEvent( void* context )
 
 void floatToString( float num, char* str )
 {
-    int parte_inteira = num;
-    float parte_decimal = num - parte_inteira;
+    int parte_inteira = (int) num;
+    float parte_decimal = num - (float) parte_inteira;
 
     int digito_dezena = parte_inteira % 100 / 10;
     int digito_unidade = parte_inteira % 10;
@@ -218,9 +218,7 @@ float mlxTask( void )
     MLX90614_WakeUpSleepMode();
     delay(50);
     float tempSurf = MLX90614_ReadTemp(MLX90614_DEFAULT_SA, MLX90614_TOBJ1);
-    delay(1);
-    tempSurf += MLX90614_ReadTemp(MLX90614_DEFAULT_SA, MLX90614_TOBJ1);
-    tempSurf = tempSurf/2.0;
+    delay(50);
     MLX90614_EnterSleepMode(MLX90614_DEFAULT_SA);
     // float temp = ceilf(tempSurf * 10) / 10;
     float temp = ( (float)( (int)(tempSurf * 10) ) ) / 10; 
@@ -274,6 +272,12 @@ void delayUs( uint32_t us )
 }
 
 
+int getPeopleCounter( void )
+{
+    return peopleCounter;
+}
+
+
 void app_setup(void)
 {
     // Button Debounce timer init
@@ -309,39 +313,36 @@ void app_setup(void)
     appFlag = 0;
 }
 
-void app(void)
+
+float app( void )
 {
-    // // Print MLX results on LCD
-    // lcdTask( mlxTask(), peopleCounter );
+    GpioWrite( &lcdPin, 1 );
+    delay(10);
 
-    // // Turn Off LCD
-    // delay(2000);
-    // GpioWrite( &lcdPin, 0 );
+    float temperature = mlxTask();
+    peopleCounter++;
 
-    // GpioWrite( &bzrPin, 1 );
-    // delay(500);
-    // GpioWrite( &bzrPin, 0 );
-    // ledTurn('r');
-    // delay(500);
-    // ledTurn('g');
-    // delay(500);
-    // ledTurn('b');
-    // delay(500);
-    // ledTurn('o');
-    // GpioWrite( &alcPin, 1);
-    // delay(3000);
-    // GpioWrite( &alcPin, 0);
-
-    while(1)
+    if( temperature >= MAX_TEMP )
     {
-        while(appFlag == 0);
-        peopleCounter++;
-        GpioWrite( &lcdPin, 1 );
-        delay(10);
-        lcdTask( mlxTask(), peopleCounter );
-        delay(2000);
-        GpioWrite( &lcdPin, 0 );
-        appFlag = 0;
-        ledTurn('o');
+        ledTurn('r');
+        GpioWrite( &bzrPin, 1 );
     }
+    else
+    {
+        ledTurn('g');
+    }    
+    delay(10);
+    lcdTask( temperature, peopleCounter );
+    delay(200);
+    GpioWrite( &bzrPin, 0 );
+    GpioWrite( &alcPin, 1 );
+    delay(300);
+    GpioWrite( &alcPin, 0 );
+    delay(1500);
+
+    GpioWrite( &lcdPin, 0 );
+    ledTurn('o');
+    appFlag = 0;
+
+    return temperature;
 }

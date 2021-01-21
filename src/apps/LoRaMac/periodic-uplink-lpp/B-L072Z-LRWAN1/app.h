@@ -32,6 +32,7 @@
 
 // Limits DEFINES
 #define MIN_TEMP    33.0
+#define MAX_TEMP    37.9
 
 
 static Gpio_t lcdPin;
@@ -88,12 +89,15 @@ void delay( uint32_t ms );
 void delayUs( uint32_t us );
 
 
+/* People counter function */
+int getPeopleCounter( void );
+
+
 /* Application setup funciton */
 void app_setup(void);
-
-
 /* Application function */
-void app(void);
+float app( void );
+
 
 
 #endif

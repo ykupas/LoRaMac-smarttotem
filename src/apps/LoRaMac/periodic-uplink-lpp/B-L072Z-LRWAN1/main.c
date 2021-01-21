@@ -256,8 +256,6 @@ int main( void )
 
     app_setup();
 
-    app();
-
     TimerInit( &Led1Timer, OnLed1TimerEvent );
     TimerSetValue( &Led1Timer, 25 );
 
@@ -270,11 +268,11 @@ int main( void )
     TimerInit( &LedBeaconTimer, OnLedBeaconTimerEvent );
     TimerSetValue( &LedBeaconTimer, 5000 );
 
-    // const Version_t appVersion = { .Fields.Major = 1, .Fields.Minor = 0, .Fields.Patch = 0 };
-    // const Version_t gitHubVersion = { .Fields.Major = 4, .Fields.Minor = 4, .Fields.Patch = 5 };
-    // DisplayAppInfo( "periodic-uplink-lpp", 
-    //                 &appVersion,
-    //                 &gitHubVersion );
+    const Version_t appVersion = { .Fields.Major = 1, .Fields.Minor = 0, .Fields.Patch = 0 };
+    const Version_t gitHubVersion = { .Fields.Major = 4, .Fields.Minor = 4, .Fields.Patch = 5 };
+    DisplayAppInfo( "periodic-uplink-lpp", 
+                    &appVersion,
+                    &gitHubVersion );
 
     if ( LmHandlerInit( &LmHandlerCallbacks, &LmHandlerParams ) != LORAMAC_HANDLER_SUCCESS )
     {
@@ -292,9 +290,9 @@ int main( void )
     // initialized and activated.
     LmHandlerPackageRegister( PACKAGE_ID_COMPLIANCE, &LmhpComplianceParams );
 
-    LmHandlerJoin( );
+    // LmHandlerJoin( );
 
-    StartTxProcess( LORAMAC_HANDLER_TX_ON_TIMER );
+    // StartTxProcess( LORAMAC_HANDLER_TX_ON_TIMER );
 
     while( 1 )
     {
@@ -305,6 +303,11 @@ int main( void )
         UplinkProcess( );
 
         CRITICAL_SECTION_BEGIN( );
+        if(appFlag == 1)
+        {
+            float t = app();
+            int c = getPeopleCounter();
+        }
         if( IsMacProcessPending == 1 )
         {
             // Clear flag and prevent MCU to go into low power modes.
