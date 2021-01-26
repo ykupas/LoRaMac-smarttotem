@@ -16,6 +16,10 @@
 #include "mlx90614.h"
 
 
+#define LOW     0
+#define HIGH    1
+
+
 // Pinout DEFINES
 #define LCD_PIN PA_10 
 #define ALC_PIN PB_5
@@ -25,41 +29,52 @@
 #define G_PIN   PA_4
 #define B_PIN   PA_0
 
+
 // Limits DEFINES
 #define MIN_TEMP    33.0
-
-
-// #define INT_EDGE IRQ_FALLING_EDGE
-#define INT_EDGE IRQ_RISING_EDGE
-// #define INT_STATE 0
-#define INT_STATE 1
+#define MAX_TEMP    37.9
 
 
 static Gpio_t lcdPin;
 static Gpio_t alcPin;
 static Gpio_t bzrPin;
-static Gpio_t intPin;
+static Gpio_t irPin;
 static Gpio_t rPin;
 static Gpio_t gPin;
 static Gpio_t bPin;
 static Gpio_t pushButton;
-static TimerEvent_t debounceTimer;
+
+static TimerEvent_t irDebounceTimer;
+static TimerEvent_t buttonDebounceTimer;
+
+volatile int peopleCounter;
+volatile uint8_t appFlag;
 
 
-/* Debounce Timer function event */
-void DebounceTimerEvent( void* context );
+/* Button Debounce Timer function event */
+void ButtonDebounceTimerEvent( void* context );
+/* Button Interruption function event */
+void ButtonInterruptEvent( void* context );
 
 
-/* Debounce Interruption function event */
-void DebounceIntEvent( void* context );
+/* Infra-red Debounce Timer function event */
+void IrDebounceTimerEvent( void* context );
+/* Infra-red Interruption function event */
+void IrInterruptEvent( void* context );
 
 
 /* Float to String function */
 void floatToString( float num, char* str );
 /* Int to String function */
 char intToString( int num );
+/* People Counter to String function */
+void counterToString( int counter, char* str );
 /* LCD task function */
-void lcdTask( float temp );
+void lcdTask( float temp, int count );
+/* LCD Error function */
+void lcdError( void );
+/* LCD init function */
+void lcdInit( void );
 
 
 /* MLX task Function */
@@ -76,12 +91,16 @@ void delay( uint32_t ms );
 void delayUs( uint32_t us );
 
 
+/* People counter function */
+int getPeopleCounter( void );
+
+
 /* Application setup funciton */
 void app_setup(void);
-
-
 /* Application function */
-void app(void);
+bool app( float temperature, int pCount);
+/* Application temperature function */
+float app_temp( void );
 
 
 #endif

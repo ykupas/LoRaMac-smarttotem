@@ -143,7 +143,6 @@ uint16_t MLX90614_ReadReg(uint8_t devAddr, uint8_t regAddr)
 	uint16_t data;
 	uint8_t in_buff[3], crc_buff[6], crc;
 
-	// HAL_I2C_Mem_Read(hi2c, (devAddr<<1), regAddr, 1, in_buff, 3, 100);
 	ReadI2cSW_24bits(devAddr, regAddr, in_buff);
 
 	// For a read word command, in the crc8 calculus, you have to include [SA_W, Command, SA_R, LSB, MSB]
@@ -154,13 +153,16 @@ uint16_t MLX90614_ReadReg(uint8_t devAddr, uint8_t regAddr)
 	crc_buff[4] = in_buff[1];
 	crc = CRC8_Calc(crc_buff, 5);
 
-	data = (in_buff[1] <<8 | in_buff[0]);
-
 	// CRC8 check on data received
 	if (crc != in_buff[2])
 	{
-		// data = 0x0000;
+		data = 0x0000;
 	}
+	else
+	{
+		data = (in_buff[1] << 8 | in_buff[0]);
+	}
+	
 
 	return data;
 }
@@ -195,13 +197,12 @@ float MLX90614_ReadTemp(uint8_t devAddr, uint8_t regAddr)
 	if(data == 0x0000)
 	{
 		temp = 0.0;
-		return temp;
 	}
 	else
 	{
 		temp = data*0.02 - 273.15;
-		return temp;
 	}
+	return temp;
 }
 
 

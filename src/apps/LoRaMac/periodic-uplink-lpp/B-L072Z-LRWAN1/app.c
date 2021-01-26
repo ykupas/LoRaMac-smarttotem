@@ -12,40 +12,64 @@
 #include <math.h>
 
 
-extern Gpio_t Led3;
-
-
-void DebounceTimerEvent( void* context )
+void ButtonDebounceTimerEvent( void* context )
 {
     // Stopping timer
-    TimerStop( &debounceTimer );
+    TimerStop( &buttonDebounceTimer );
 
     // Re-setup GPIO that it can be read
-    GpioInit( &pushButton, INT_PIN, PIN_INPUT, PIN_OPEN_DRAIN, PIN_NO_PULL, 1 );
-    if( GpioRead(&pushButton) == INT_STATE ) 
+    GpioInit( &pushButton, PB_2, PIN_INPUT, PIN_OPEN_DRAIN, PIN_NO_PULL, 1 );
+    if( GpioRead(&pushButton) == LOW ) 
     {
-        // If interruption is still going, toggle LED
-        GpioToggle( &Led3);
+        peopleCounter = 0;
     }
 
     // Set the interruption again
-    GpioSetInterrupt( &pushButton, INT_EDGE, IRQ_MEDIUM_PRIORITY, DebounceIntEvent);
+    GpioSetInterrupt( &pushButton, IRQ_FALLING_EDGE, IRQ_MEDIUM_PRIORITY, ButtonInterruptEvent);
 }
 
 
-void DebounceIntEvent( void* context )
+void IrDebounceTimerEvent( void* context )
+{
+    // Stopping timer
+    TimerStop( &irDebounceTimer );
+
+    // Re-setup GPIO that it can be read
+    GpioInit( &irPin, INT_PIN, PIN_INPUT, PIN_OPEN_DRAIN, PIN_NO_PULL, 1 );
+    if( GpioRead(&irPin) == HIGH ) 
+    {
+        appFlag = 1;
+    }
+
+    // Set the interruption again
+    GpioSetInterrupt( &irPin, IRQ_RISING_EDGE, IRQ_HIGH_PRIORITY, IrInterruptEvent);
+}
+
+
+void ButtonInterruptEvent( void* context )
 {
     // DeInit the GPIO 
     GpioRemoveInterrupt(&pushButton);
     // Start the debounce timer
-    TimerStart( &debounceTimer );
+    TimerStart( &buttonDebounceTimer );
+}
+
+
+void IrInterruptEvent( void* context )
+{
+    // DeInit the GPIO 
+    GpioRemoveInterrupt(&irPin);
+    // Turn Led Blue on
+    ledTurn('b');
+    // Start the debounce timer
+    TimerStart( &irDebounceTimer );
 }
 
 
 void floatToString( float num, char* str )
 {
-    int parte_inteira = num;
-    float parte_decimal = num - parte_inteira;
+    int parte_inteira = (int) num;
+    float parte_decimal = num - (float) parte_inteira;
 
     int digito_dezena = parte_inteira % 100 / 10;
     int digito_unidade = parte_inteira % 10;
@@ -102,53 +126,99 @@ char intToString( int num )
 }
 
 
-void lcdTask( float temp )
+void counterToString( int counter, char* str )
 {
-    if(temp <= MIN_TEMP)
+    if( counter < 10 )
     {
-        // Line 0 
-        lcd_send_cmd (0x80|0x00);
-        lcd_send_string("Temp muito baixa");
-        // Line 1
-        lcd_send_cmd (0x80|0x40);
-        lcd_send_string("Repita o processo");
-        // Line 2 
-        lcd_send_cmd (0x80|0x14);
-        lcd_send_string("com o punho mais");
-        // Line 3
-        lcd_send_cmd (0x80|0x54);
-        lcd_send_string("proximo do indicado");
+        int digito_unidade = counter % 10;
+        str[0] = '0';
+        str[1] = '0';
+        str[2] = intToString(digito_unidade);
+    }
+    else if( counter >= 10 && counter < 100 )
+    {
+        int digito_dezena = counter % 100 / 10;
+        int digito_unidade = counter % 10;
+        str[0] = '0';
+        str[1] = intToString(digito_dezena);
+        str[2] = intToString(digito_unidade);
+    }
+    else if(counter >= 100 && counter < 1000 )
+    {
+        int digito_centena = counter / 100;
+        int digito_dezena = counter % 100 / 10;
+        int digito_unidade = counter % 10;
+        str[0] = intToString(digito_centena);
+        str[1] = intToString(digito_dezena);
+        str[2] = intToString(digito_unidade);
     }
     else
     {
-        // Passing float to string
-        char buf[4];
-        floatToString(temp, buf);
-        // Line 0 
-        lcd_send_cmd (0x80|0x00);
-        lcd_send_string("Temperatura");
-        // Line 1
-        lcd_send_cmd (0x80|0x40);
-        lcd_send_float(buf);
-        lcd_send_string(" C");
-        // Line 2 
-        lcd_send_cmd (0x80|0x14);
-        lcd_send_string("Numero de pessoas");
-        // Line 3
-        lcd_send_cmd (0x80|0x54);
-        lcd_send_string("300");
+        str[0] = '9';
+        str[1] = '9';
+        str[2] = '9';
     }
+}
+
+
+void lcdTask( float temp, int count )
+{
+    lcdInit();
+    // Passing float to string
+    char buf1[4];
+    char buf2[4];
+    floatToString(temp, buf1);
+    counterToString(count, buf2);
+    // Line 0 
+    lcd_send_cmd (0x80|0x00);
+    lcd_send_string("Temperatura");
+    // Line 1
+    lcd_send_cmd (0x80|0x40);
+    lcd_send_float(buf1);
+    lcd_send_string(" C");
+    // Line 2 
+    lcd_send_cmd (0x80|0x14);
+    lcd_send_string("Numero de pessoas");
+    // Line 3
+    lcd_send_cmd (0x80|0x54);
+    lcd_send_string(buf2);
+    lcd_send_string(" pessoas");
+}
+
+
+void lcdError( void )
+{
+    lcdInit();
+    // Line 0 
+    lcd_send_cmd (0x80|0x00);
+    lcd_send_string("Temp muito baixa");
+    // Line 1
+    lcd_send_cmd (0x80|0x40);
+    lcd_send_string("Repita o processo");
+    // Line 2 
+    lcd_send_cmd (0x80|0x14);
+    lcd_send_string("com o punho mais");
+    // Line 3
+    lcd_send_cmd (0x80|0x54);
+    lcd_send_string("proximo do indicado");
+}
+
+
+void lcdInit( void )
+{
+    lcd_init();
+    delay(50);
+    lcd_clear();
+    delay(50);
 }
 
 
 float mlxTask( void )
 {
     MLX90614_WakeUpSleepMode();
-    delay(50);
+    delay(300);
     float tempSurf = MLX90614_ReadTemp(MLX90614_DEFAULT_SA, MLX90614_TOBJ1);
-    delay(1);
-    tempSurf += MLX90614_ReadTemp(MLX90614_DEFAULT_SA, MLX90614_TOBJ1);
-    tempSurf = tempSurf/2.0;
+    delay(50);
     MLX90614_EnterSleepMode(MLX90614_DEFAULT_SA);
     // float temp = ceilf(tempSurf * 10) / 10;
     float temp = ( (float)( (int)(tempSurf * 10) ) ) / 10; 
@@ -202,11 +272,21 @@ void delayUs( uint32_t us )
 }
 
 
+int getPeopleCounter( void )
+{
+    return peopleCounter;
+}
+
+
 void app_setup(void)
 {
-    // Debounce timer init
-    TimerInit( &debounceTimer, DebounceTimerEvent );
-    TimerSetValue( &debounceTimer, 1000 );
+    // Button Debounce timer init
+    TimerInit( &buttonDebounceTimer, ButtonDebounceTimerEvent );
+    TimerSetValue( &buttonDebounceTimer, 100 );
+
+    // Infra-red Debounce timer init
+    TimerInit( &irDebounceTimer, IrDebounceTimerEvent );
+    TimerSetValue( &irDebounceTimer, 1000 );
 
     // Init I2C - I2C 1 - PB8 SCL - PB9 SDA 
     InitI2c();
@@ -222,52 +302,68 @@ void app_setup(void)
     GpioInit( &gPin, G_PIN, PIN_OUTPUT, PIN_PUSH_PULL, PIN_NO_PULL, 0 );
     GpioInit( &bPin, B_PIN, PIN_OUTPUT, PIN_PUSH_PULL, PIN_NO_PULL, 0 );
     ledTurn('o');
-    GpioInit( &intPin, INT_PIN, PIN_INPUT, PIN_PUSH_PULL, PIN_NO_PULL, 1 );
-
-    // LCD init
-    GpioWrite( &lcdPin, 1);
-    delay(1);
-    lcd_init();
-    delay(50);
-    lcd_clear();
-    delay(50);
+    GpioInit( &irPin, INT_PIN, PIN_INPUT, PIN_PUSH_PULL, PIN_NO_PULL, 1 );
+    GpioInit( &pushButton, PB_2, PIN_INPUT, PIN_OPEN_DRAIN, PIN_NO_PULL, 1 );
 
     // Interruption set-up init 
-    // GpioInit( &pushButton, INT_PIN, PIN_INPUT, PIN_OPEN_DRAIN, PIN_NO_PULL, 1 );
-    // GpioSetInterrupt( &pushButton, INT_EDGE, IRQ_MEDIUM_PRIORITY, DebounceIntEvent);
-    GpioSetInterrupt( &intPin, INT_EDGE, IRQ_MEDIUM_PRIORITY, DebounceIntEvent);
-    
+    GpioSetInterrupt( &irPin, IRQ_RISING_EDGE, IRQ_HIGH_PRIORITY, IrInterruptEvent);
+    GpioSetInterrupt( &pushButton, IRQ_FALLING_EDGE, IRQ_MEDIUM_PRIORITY, ButtonInterruptEvent);
+
+    peopleCounter = 0;
+    appFlag = 0;
 }
 
-void app(void)
+
+bool app( float temperature, int pCount )
 {
-    // Application setup
-    app_setup();
-
-    // Print MLX results on LCD
-    lcdTask( mlxTask() );
-
-    // Turn Off LCD
-    delay(2000);
-    GpioWrite( &lcdPin, 0 );
-
-    GpioWrite( &bzrPin, 1 );
-    delay(500);
-    GpioWrite( &bzrPin, 0 );
-    ledTurn('r');
-    delay(500);
-    ledTurn('g');
-    delay(500);
-    ledTurn('b');
-    delay(500);
-    ledTurn('o');
-    GpioWrite( &alcPin, 1);
-    delay(3000);
-    GpioWrite( &alcPin, 0);
-
-    while(1)
+    // Return value
+    bool ret = 0;
+    // Check if temp is high
+    if( temperature >= MAX_TEMP )
     {
-        // GpioToggle( &Led1);
-        // delayUs(500000);
+        // Turn RGB red
+        ledTurn('r');
+        // Turn Buzzer off
+        GpioWrite( &bzrPin, 1 );
+        // Write to ret value
+        ret = 1;
     }
+    else
+    {
+        // Turn RGB green
+        ledTurn('g');
+    }    
+    // Print in LCD
+    delay(100);
+    lcdTask( temperature, pCount );
+    delay(200);
+    // Turn buzzer off
+    GpioWrite( &bzrPin, 0 );
+    delay(200);
+    // Turn alcool on
+    GpioWrite( &alcPin, 1 );
+    delay(300);
+    // Turn alcool off
+    GpioWrite( &alcPin, 0 );
+    delay(1500);
+    // Turn LCD off
+    GpioWrite( &lcdPin, 0 );
+    // Turn RGB off
+    ledTurn('o');
+    // Return value
+    return ret;
+}
+
+
+float app_temp( void )
+{
+    // Turn LCD on
+    GpioWrite( &lcdPin, 1 );
+    delay(100);
+    // Reset green LED
+    GpioRemoveInterrupt(&gPin);
+    GpioInit( &gPin, G_PIN, PIN_OUTPUT, PIN_PUSH_PULL, PIN_NO_PULL, 1 );
+    delay(100);
+    // Read temperature
+    return mlxTask();
 }

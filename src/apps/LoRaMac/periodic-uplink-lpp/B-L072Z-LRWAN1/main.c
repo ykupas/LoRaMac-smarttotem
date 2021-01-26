@@ -246,6 +246,12 @@ extern Gpio_t Led2; // Blinks every 5 seconds when beacon is acquired
 extern Gpio_t Led3; // Rx
 extern Gpio_t Led4; // App
 
+
+// App variables
+static float sumTemp = 0.0;
+static float lastTemp = 0.0;
+static int peopleCount = 0;
+
 /*!
  * Main application entry point.
  */
@@ -254,7 +260,7 @@ int main( void )
     BoardInitMcu( );
     BoardInitPeriph( );
 
-    app();
+    app_setup();
 
     TimerInit( &Led1Timer, OnLed1TimerEvent );
     TimerSetValue( &Led1Timer, 25 );
@@ -268,11 +274,11 @@ int main( void )
     TimerInit( &LedBeaconTimer, OnLedBeaconTimerEvent );
     TimerSetValue( &LedBeaconTimer, 5000 );
 
-    // const Version_t appVersion = { .Fields.Major = 1, .Fields.Minor = 0, .Fields.Patch = 0 };
-    // const Version_t gitHubVersion = { .Fields.Major = 4, .Fields.Minor = 4, .Fields.Patch = 5 };
-    // DisplayAppInfo( "periodic-uplink-lpp", 
-    //                 &appVersion,
-    //                 &gitHubVersion );
+    const Version_t appVersion = { .Fields.Major = 1, .Fields.Minor = 0, .Fields.Patch = 0 };
+    const Version_t gitHubVersion = { .Fields.Major = 4, .Fields.Minor = 4, .Fields.Patch = 5 };
+    DisplayAppInfo( "periodic-uplink-lpp", 
+                    &appVersion,
+                    &gitHubVersion );
 
     if ( LmHandlerInit( &LmHandlerCallbacks, &LmHandlerParams ) != LORAMAC_HANDLER_SUCCESS )
     {
@@ -303,6 +309,26 @@ int main( void )
         UplinkProcess( );
 
         CRITICAL_SECTION_BEGIN( );
+        if(appFlag == 1)
+        {
+            appFlag = 0;
+            float t = app_temp();
+            if( t >= MIN_TEMP )
+            {
+                peopleCounter++;
+                lastTemp = t;
+                sumTemp += lastTemp;
+                if( app(t, peopleCounter) )
+                {
+                    IsTxFramePending = 1;
+                }
+            }
+            else
+            {
+                // lcdError();
+                app(t, peopleCounter);
+            }
+        }
         if( IsMacProcessPending == 1 )
         {
             // Clear flag and prevent MCU to go into low power modes.
@@ -446,12 +472,36 @@ static void PrepareTxFrame( void )
 
     AppData.Port = LORAWAN_APP_PORT;
 
-    CayenneLppReset( );
-    CayenneLppAddDigitalInput( channel++, AppLedStateOn );
-    CayenneLppAddAnalogInput( channel++, BoardGetBatteryLevel( ) * 100 / 254 );
+    // CayenneLppReset( );
+    // CayenneLppAddDigitalInput( channel++, AppLedStateOn );
+    // CayenneLppAddAnalogInput( channel++, BoardGetBatteryLevel( ) * 100 / 254 );
 
-    CayenneLppCopy( AppData.Buffer );
-    AppData.BufferSize = CayenneLppGetSize( );
+    // CayenneLppCopy( AppData.Buffer );
+    // AppData.BufferSize = CayenneLppGetSize( );
+
+    // TODO:
+    int count = getPeopleCounter();
+    float meanTemp = sumTemp/( (float) count);
+
+    int aux1 = (int)lastTemp;
+    int aux2 = (int)meanTemp;
+
+    AppData.Buffer[0] = (uint8_t)(aux1 <<  0);
+    AppData.Buffer[1] = (uint8_t)(aux1 <<  8);
+    AppData.Buffer[2] = (uint8_t)(aux1 << 16);
+    AppData.Buffer[3] = (uint8_t)(aux1 << 24);
+    
+    AppData.Buffer[4] = (uint8_t)(aux2 <<  0);
+    AppData.Buffer[5] = (uint8_t)(aux2 <<  8);
+    AppData.Buffer[6] = (uint8_t)(aux2 << 16);
+    AppData.Buffer[7] = (uint8_t)(aux2 << 24);
+    
+    AppData.Buffer[8] =  (uint8_t)(count <<  0);
+    AppData.Buffer[9] =  (uint8_t)(count <<  8);
+    AppData.Buffer[10] = (uint8_t)(count << 16);
+    AppData.Buffer[11] = (uint8_t)(count << 24);
+
+    AppData.BufferSize = 12;
 
     if( LmHandlerSend( &AppData, LORAWAN_DEFAULT_CONFIRMED_MSG_STATE ) == LORAMAC_HANDLER_SUCCESS )
     {
