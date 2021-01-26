@@ -164,44 +164,43 @@ void counterToString( int counter, char* str )
 void lcdTask( float temp, int count )
 {
     lcdInit();
+    // Passing float to string
+    char buf1[4];
+    char buf2[4];
+    floatToString(temp, buf1);
+    counterToString(count, buf2);
+    // Line 0 
+    lcd_send_cmd (0x80|0x00);
+    lcd_send_string("Temperatura");
+    // Line 1
+    lcd_send_cmd (0x80|0x40);
+    lcd_send_float(buf1);
+    lcd_send_string(" C");
+    // Line 2 
+    lcd_send_cmd (0x80|0x14);
+    lcd_send_string("Numero de pessoas");
+    // Line 3
+    lcd_send_cmd (0x80|0x54);
+    lcd_send_string(buf2);
+    lcd_send_string(" pessoas");
+}
 
-    if(temp <= MIN_TEMP)
-    {
-        // Line 0 
-        lcd_send_cmd (0x80|0x00);
-        lcd_send_string("Temp muito baixa");
-        // Line 1
-        lcd_send_cmd (0x80|0x40);
-        lcd_send_string("Repita o processo");
-        // Line 2 
-        lcd_send_cmd (0x80|0x14);
-        lcd_send_string("com o punho mais");
-        // Line 3
-        lcd_send_cmd (0x80|0x54);
-        lcd_send_string("proximo do indicado");
-    }
-    else
-    {
-        // Passing float to string
-        char buf1[4];
-        char buf2[4];
-        floatToString(temp, buf1);
-        counterToString(count, buf2);
-        // Line 0 
-        lcd_send_cmd (0x80|0x00);
-        lcd_send_string("Temperatura");
-        // Line 1
-        lcd_send_cmd (0x80|0x40);
-        lcd_send_float(buf1);
-        lcd_send_string(" C");
-        // Line 2 
-        lcd_send_cmd (0x80|0x14);
-        lcd_send_string("Numero de pessoas");
-        // Line 3
-        lcd_send_cmd (0x80|0x54);
-        lcd_send_string(buf2);
-        lcd_send_string(" pessoas");
-    }
+
+void lcdError( void )
+{
+    lcdInit();
+    // Line 0 
+    lcd_send_cmd (0x80|0x00);
+    lcd_send_string("Temp muito baixa");
+    // Line 1
+    lcd_send_cmd (0x80|0x40);
+    lcd_send_string("Repita o processo");
+    // Line 2 
+    lcd_send_cmd (0x80|0x14);
+    lcd_send_string("com o punho mais");
+    // Line 3
+    lcd_send_cmd (0x80|0x54);
+    lcd_send_string("proximo do indicado");
 }
 
 
@@ -217,7 +216,7 @@ void lcdInit( void )
 float mlxTask( void )
 {
     MLX90614_WakeUpSleepMode();
-    delay(50);
+    delay(300);
     float tempSurf = MLX90614_ReadTemp(MLX90614_DEFAULT_SA, MLX90614_TOBJ1);
     delay(50);
     MLX90614_EnterSleepMode(MLX90614_DEFAULT_SA);
@@ -315,41 +314,56 @@ void app_setup(void)
 }
 
 
-float app( void )
+bool app( float temperature, int pCount )
 {
-    GpioWrite( &lcdPin, 1 );
-    delay(10);
-
-    GpioRemoveInterrupt(&gPin);
-    GpioInit( &gPin, G_PIN, PIN_OUTPUT, PIN_PUSH_PULL, PIN_NO_PULL, 1 );
-
-    float temperature = mlxTask();
-    if(temperature <= MIN_TEMP)
-    {
-        peopleCounter++;
-    }
-
+    // Return value
+    bool ret = 0;
+    // Check if temp is high
     if( temperature >= MAX_TEMP )
     {
+        // Turn RGB red
         ledTurn('r');
+        // Turn Buzzer off
         GpioWrite( &bzrPin, 1 );
+        // Write to ret value
+        ret = 1;
     }
     else
     {
+        // Turn RGB green
         ledTurn('g');
     }    
-    delay(10);
-    lcdTask( temperature, peopleCounter );
+    // Print in LCD
+    delay(100);
+    lcdTask( temperature, pCount );
     delay(200);
+    // Turn buzzer off
     GpioWrite( &bzrPin, 0 );
+    delay(200);
+    // Turn alcool on
     GpioWrite( &alcPin, 1 );
     delay(300);
+    // Turn alcool off
     GpioWrite( &alcPin, 0 );
     delay(1500);
-
+    // Turn LCD off
     GpioWrite( &lcdPin, 0 );
+    // Turn RGB off
     ledTurn('o');
-    appFlag = 0;
+    // Return value
+    return ret;
+}
 
-    return temperature;
+
+float app_temp( void )
+{
+    // Turn LCD on
+    GpioWrite( &lcdPin, 1 );
+    delay(100);
+    // Reset green LED
+    GpioRemoveInterrupt(&gPin);
+    GpioInit( &gPin, G_PIN, PIN_OUTPUT, PIN_PUSH_PULL, PIN_NO_PULL, 1 );
+    delay(100);
+    // Read temperature
+    return mlxTask();
 }

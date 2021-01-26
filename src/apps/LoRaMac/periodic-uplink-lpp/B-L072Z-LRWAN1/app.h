@@ -71,6 +71,8 @@ char intToString( int num );
 void counterToString( int counter, char* str );
 /* LCD task function */
 void lcdTask( float temp, int count );
+/* LCD Error function */
+void lcdError( void );
 /* LCD init function */
 void lcdInit( void );
 
@@ -96,8 +98,9 @@ int getPeopleCounter( void );
 /* Application setup funciton */
 void app_setup(void);
 /* Application function */
-float app( void );
-
+bool app( float temperature, int pCount);
+/* Application temperature function */
+float app_temp( void );
 
 
 #endif

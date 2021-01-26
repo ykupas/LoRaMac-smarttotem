@@ -311,15 +311,22 @@ int main( void )
         CRITICAL_SECTION_BEGIN( );
         if(appFlag == 1)
         {
-            float t = app();
-            if(t > MIN_TEMP)
+            appFlag = 0;
+            float t = app_temp();
+            if( t >= MIN_TEMP )
             {
+                peopleCounter++;
                 lastTemp = t;
                 sumTemp += lastTemp;
-                if(lastTemp > MAX_TEMP)
+                if( app(t, peopleCounter) )
                 {
                     IsTxFramePending = 1;
                 }
+            }
+            else
+            {
+                // lcdError();
+                app(t, peopleCounter);
             }
         }
         if( IsMacProcessPending == 1 )
