@@ -9,6 +9,7 @@
 #include "i2c-driver.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "app.h"
 
 
 void InitI2c( void )
@@ -264,7 +265,7 @@ uint16_t ReadI2cSW_24bits(uint8_t addr, uint8_t reg, uint8_t* buf)
 	GpioWrite(&SCL,0);
 	///////////////////////////////////////////////////
 
-	//i2c_tx(internal_Reg); ///////////////////////////
+	//i2c_tx(internal_Reg); ///////////////////////////   
 	for(x=8; x; x--) {
 		if(internal_Reg&0x80) GpioWrite(&SDA,1);
 		else GpioWrite(&SDA,0);

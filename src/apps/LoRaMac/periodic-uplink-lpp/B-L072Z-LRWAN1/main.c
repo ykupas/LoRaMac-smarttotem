@@ -250,7 +250,6 @@ extern Gpio_t Led4; // App
 // App variables
 static float sumTemp = 0.0;
 static float lastTemp = 0.0;
-static int peopleCount = 0;
 
 /*!
  * Main application entry point.

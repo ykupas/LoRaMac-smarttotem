@@ -142,10 +142,15 @@ uint16_t MLX90614_ReadReg(uint8_t devAddr, uint8_t regAddr)
 {
 	uint16_t data;
 	uint8_t in_buff[3], crc_buff[6], crc;
+	in_buff[0] = 0xFF;
+	in_buff[1] = 0xFF;
 
-	ReadI2cSW_24bits(devAddr, regAddr, in_buff);
+	while(in_buff[0] == 0xFF && in_buff[1] == 0xFF)
+	{
+		ReadI2cSW_24bits(devAddr, regAddr, in_buff);
+		delay(10);
+	}
 
-	// For a read word command, in the crc8 calculus, you have to include [SA_W, Command, SA_R, LSB, MSB]
 	crc_buff[0] = (devAddr<<1);
 	crc_buff[1] = regAddr;
 	crc_buff[2] = (devAddr<<1) + 1;
@@ -162,7 +167,7 @@ uint16_t MLX90614_ReadReg(uint8_t devAddr, uint8_t regAddr)
 	{
 		data = (in_buff[1] << 8 | in_buff[0]);
 	}
-	
+	data = (in_buff[1] << 8 | in_buff[0]);
 
 	return data;
 }
@@ -189,7 +194,6 @@ float MLX90614_ReadTemp(uint8_t devAddr, uint8_t regAddr)
 	float temp;
 	uint16_t data;
 
-	// data = MLX90614_ReadReg(hi2c, devAddr, regAddr);
 	delay(50);
 	data = MLX90614_ReadReg(devAddr, regAddr);
 	delay(50);

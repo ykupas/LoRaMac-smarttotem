@@ -163,7 +163,6 @@ void counterToString( int counter, char* str )
 
 void lcdTask( float temp, int count )
 {
-    lcdInit();
     // Passing float to string
     char buf1[4];
     char buf2[4];
@@ -360,10 +359,22 @@ float app_temp( void )
     // Turn LCD on
     GpioWrite( &lcdPin, 1 );
     delay(100);
+    // Write message
+    lcdInit();
+    lcd_send_cmd (0x80|0x00);
+    lcd_send_string("Fazendo leitura");
+    lcd_send_cmd (0x80|0x40);
+    lcd_send_string("da sua temperatura");
+    delay(100);
     // Reset green LED
     GpioRemoveInterrupt(&gPin);
     GpioInit( &gPin, G_PIN, PIN_OUTPUT, PIN_PUSH_PULL, PIN_NO_PULL, 1 );
     delay(100);
     // Read temperature
-    return mlxTask();
+    float temp = mlxTask();
+    delay(50);
+    lcd_clear();
+    delay(50);
+    return temp;
 }
+
